@@ -1,0 +1,149 @@
+@media only screen and (max-width : 850px) {
+	#wrapper {
+		width : 100%;
+	}
+	
+	#wrapper.login {
+		display : block;
+		position : static;
+		background : none;
+		margin : 40px auto 0;
+		width: 400px;
+		min-width : 400px;
+		min-height : 0;
+	}
+	
+	#wrapper #container .hide-btn {
+		display : none;
+	}
+	
+	#wrapper #container #top  {
+		height : auto;
+	}
+	
+	#wrapper #container #top #labels .user {
+		display : none;
+	}
+	
+	#wrapper #container #top #menu  {
+		overflow : hidden;
+		cursor : pointer;
+		height : 33px;
+	}
+	
+	#wrapper #container #top #menu:hover  {
+		height : auto;
+	}
+	
+	#wrapper #container #top #menu ul {
+		float : none;
+		position : static;
+		background : url(../gfx/btn-menu.png) no-repeat 20px 5px;
+		top : 0;
+		left : 0;
+		border-bottom : 0;
+		margin : 0;
+		padding : 33px 0 0;
+		width : 100%;
+	}
+	
+	#wrapper #container #top #menu ul ul {
+		background : none;
+		padding : 0;
+	}
+	
+	#wrapper #container #top #menu ul li {
+		border : 0;
+		width : 100%;
+	}
+	
+	#wrapper #container #top #menu ul li a, #wrapper #container #top #menu ul li a:link, #wrapper #container #top #menu ul li a:active, #wrapper #container #top #menu ul li a:visited{
+		display : block;
+		background : url(../gfx/menu.png) repeat-x right top;
+		border : 0;
+		padding : 8px 20px 0;
+		margin : 3px 0 0;
+		font : 15px/1.0em Arial;
+		height : 25px;
+	}
+	
+	#wrapper #container #top #menu ul li:first-child a{
+		margin : 3px 0 0;
+	}
+	
+	#wrapper #container #top #menu ul li li a, #wrapper #container #top #menu ul li li a:link, #wrapper #container #top #menu ul li li a:active, #wrapper #container #top #menu ul li li a:visited {
+		display : block;
+		background : #FFFFFF;
+		border : 0;
+		border-bottom : 1px solid #E6E6E6;
+		padding : 8px 20px 8px 30px;
+		margin : 0;
+		font : 11px/1.0em Arial;
+		color : #000000;
+		height : auto;
+	}
+	
+	#wrapper #container #top #menu ul li li li a, #wrapper #container #top #menu ul li li li a:link, #wrapper #container #top #menu ul li li li a:active, #wrapper #container #top #menu ul li li li a:visited,
+	#wrapper #container #top #menu ul li li.current li a, #wrapper #container #top #menu ul li li.current li a:link, #wrapper #container #top #menu ul li li.current li a:active, #wrapper #container #top #menu ul li li.current li a:visited	{
+		display : block;
+		background : #FFFFFF;
+		border : 0;
+		border-bottom : 1px solid #E6E6E6;
+		padding : 8px 20px 8px 40px;
+		margin : 0;
+		font : 11px/1.0em Arial;
+		color : #7B7B7B;
+	}
+	
+	#wrapper #container #top #menu ul li li a:hover,
+	#wrapper #container #top #menu ul li li.current li a:hover,
+	#wrapper #container #top #menu ul li li li a:hover,
+	#wrapper #container #top #menu ul li li.current a, #wrapper #container #top #menu ul li li.current a:link, #wrapper #container #top #menu ul li li.current a:active, #wrapper #container #top #menu ul li li.current a:visited,
+	#wrapper #container #top #menu ul li li.current li.current a, #wrapper #container #top #menu ul li li.current li.current a:link, #wrapper #container #top #menu ul li li.current li.current a:active, #wrapper #container #top #menu ul li li.current li.current a:visited	{
+		background : #f6f6f6;
+		color : #7B7B7B;
+	}
+	
+	#wrapper #container {
+		background : #FFFFFF;
+	}
+	
+	#wrapper #container #left {
+		display : none;
+	}
+	
+	#wrapper #container #right {
+		margin: 0 0 0 20px;
+	}
+	
+	#wrapper #container #right .section .quarter {
+		float : left;
+		width : 100%;
+	}
+
+	#wrapper #container #right .section .third {
+		float : left;
+		width : 100%;
+	}
+
+	#wrapper #container #right .section .half {
+		float : left;
+		width : 100%;
+	}
+
+	#wrapper #container #right .section .three-quarter {
+		float : left;
+		width : 100%;
+	}
+	
+	.row  label {
+		position : static;
+		display : block;
+		padding : 0 0 7px;
+		width : 100%;
+	}
+	
+	.row .right {
+		margin : 0;
+	}
+}

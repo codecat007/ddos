@@ -1,0 +1,117 @@
+
+/*------------------------------------------------------------------
+
+[Gallery Component Stylesheet]
+
+	Project:		Slate Admin 2.0
+	Version:		1.0
+	Last change:	07/20/2012
+	Assigned to:	Rod Howard (rh)
+	
+
+-------------------------------------------------------------------*/
+
+.gallery {
+	padding: 0;
+	margin: 0;
+	
+	text-align: center;
+}
+
+.gallery li {
+	position: relative;
+	overflow: hidden;
+	
+	display: inline-block;
+	
+	width: 205px;
+	height: 166px;
+	padding: 0;
+	margin: 0 7px 1em;
+	
+	list-style: none;
+	
+	text-align: center;
+}
+
+.gallery .frame {
+	position: absolute;
+}
+
+.gallery .frame > img {
+	max-width: 100%;
+}
+
+.gallery .img{
+	position: absolute;
+	
+	top: 13px;
+	left: 17px;
+}
+
+.gallery .img img {
+	width: 169px;
+	height: 130px;
+}
+
+.gallery .actions {
+	display: none;
+}	
+
+ul.gallery li a.zoom,
+ul.gallery li a.edit,
+ul.gallery li a.delete {
+	width:44px;
+	height:44px;
+	display:block;
+	position:absolute;
+	text-indent:-9999px;
+	z-index:1;
+}
+
+ul.gallery li a.edit,
+ul.gallery li a.zoom {
+	top:18%;
+}
+
+ul.gallery li a.edit {
+	right:22%;
+}
+
+ul.gallery li a.zoom {
+	left:22%;
+	z-index:2;
+}
+
+
+ul.gallery li a.zoom,
+ul.gallery li a.edit {
+	width:44px;
+	height:44px;
+	display:block;
+	text-indent: 0;
+	position:absolute;
+	z-index:1;
+	font-size: 24px;
+	text-align: center;
+	line-height: 44px;
+	color: #FFF;
+	border-radius: 100px;
+	opacity: .85;
+	
+	text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+}
+
+ul.gallery li a.zoom {
+	background-color: #F90;
+}
+
+ul.gallery li a.edit {
+	background-color: #3C4049;	
+}
+
+ul.gallery li a:hover {
+	text-decoration: none;
+	
+	opacity: 1;
+}

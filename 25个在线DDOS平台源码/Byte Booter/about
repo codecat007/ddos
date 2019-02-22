@@ -1,0 +1,36 @@
+#!/bin/bash
+BLACK='\e[0;30m'
+BLUE='\e[0;34m'
+GREEN='\e[0;32m'
+CYAN='\e[0;36m'
+RED='\e[0;31m'
+PURPLE='\e[0;35m'
+BROWN='\e[0;33m'
+LIGHTGRAY='\e[0;37m'
+DARKGRAY='\e[1;30m'
+LIGHTBLUE='\e[1;34m'
+LIGHTGREEN='\e[1;32m'
+LIGHTCYAN='\e[1;36m'
+LIGHTRED='\e[1;31m'
+LIGHTPURPLE='\e[1;35m'
+YELLOW='\e[1;33m'
+WHITE='\e[1;37m'
+NC='\e[0m'              # No Color
+clear
+echo "+=================================+"
+echo "+             About               +"
+echo "+=================================+"
+echo -e " ${LIGHTBLUE}   [Project Name] ${RED} Byte     "
+echo -e " ${LIGHTBLUE}   [Version] ${RED} [Regular Version]     "
+echo -e " ${LIGHTBLUE}   [Release Date] ${RED} N/A     "
+echo -e " ${LIGHTBLUE}   [Size] ${RED} 4MB - 5MB    "
+echo -e " "
+echo -e " ${LIGHTBLUE}   [Developed At] ${RED} WWW.HACKFORUMS.NET  "
+echo -e " ${LIGHTBLUE}   [Coder] ${RED} Realtalk   "
+echo -e " ${LIGHTBLUE}   [Beta Tester] ${RED} Pimpsac   "
+echo -e " ${LIGHTBLUE}   [Release Version] ${RED} Free    "
+echo -e " "
+echo -e " ${LIGHTBLUE} Press Enter To Go Back to ${GREEN} Menu      "
+read
+
+

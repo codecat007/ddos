@@ -1,0 +1,23 @@
+
+/*------------------------------------------------------------------
+
+[UI Elements Stylesheet]
+
+	Project:		Corona Admin
+	Version:		1.0
+	Last change:	05/30/2012
+	Assigned to:	Rod Howard (rh)
+	
+
+-------------------------------------------------------------------*/
+
+#eq span {
+	height: 175px;
+	float: left;
+	margin: 15px;
+}
+
+.gravity .btn {
+	width: 50px;
+	margin-right: 1em;
+}

@@ -1,0 +1,12 @@
+[06-Sep-2011 00:06:12] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/legionbo/public_html/gateways/paypal/ipn.php on line 33
+[06-Sep-2011 00:06:12] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to www.paypal.comw:80 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /home/legionbo/public_html/gateways/paypal/ipn.php on line 33
+[06-Sep-2011 00:06:12] PHP Notice:  Undefined index:  item_number in /home/legionbo/public_html/gateways/paypal/ipn.php on line 37
+[06-Sep-2011 00:06:12] PHP Notice:  Undefined offset:  1 in /home/legionbo/public_html/gateways/paypal/ipn.php on line 37
+[06-Sep-2011 00:28:27] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/legionbo/public_html/gateways/paypal/ipn.php on line 33
+[06-Sep-2011 00:28:27] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to www.paypal.comw:80 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /home/legionbo/public_html/gateways/paypal/ipn.php on line 33
+[06-Sep-2011 00:28:27] PHP Notice:  Undefined index:  item_number in /home/legionbo/public_html/gateways/paypal/ipn.php on line 37
+[06-Sep-2011 00:28:27] PHP Notice:  Undefined offset:  1 in /home/legionbo/public_html/gateways/paypal/ipn.php on line 37
+[06-Sep-2011 00:49:45] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/legionbo/public_html/gateways/paypal/ipn.php on line 33
+[06-Sep-2011 00:49:45] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to www.paypal.comw:80 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /home/legionbo/public_html/gateways/paypal/ipn.php on line 33
+[06-Sep-2011 00:49:45] PHP Notice:  Undefined index:  item_number in /home/legionbo/public_html/gateways/paypal/ipn.php on line 37
+[06-Sep-2011 00:49:45] PHP Notice:  Undefined offset:  1 in /home/legionbo/public_html/gateways/paypal/ipn.php on line 37

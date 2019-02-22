@@ -1,0 +1,9 @@
+Instructions
+1. Upload all the web files
+2. Edit the config.php with your information
+3. Upload the SQL file
+4. Login using the default admin details Admin:admin
+
+Enjoy the source!
+
+WicKd

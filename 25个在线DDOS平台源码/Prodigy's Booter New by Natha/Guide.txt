@@ -1,0 +1,13 @@
+Step 1: Download the booter source, either public or premium one.
+Step 2: Upload the files to your webhost, extract them, load them.
+Step 3: You should have a mySQL error.
+Step 4: Open dbc.php, edit the configuration according to yours
+Step 5: To make a user go to cPanel main menu and choose "mySQL Databases"
+Step 6: Create a database, and a user.
+Step 7: After doing the above, assign the user to that database.
+Step 8: Give that user all priviledges.
+Step 9: Edit dbc with the information you just created.
+Step 10: You should now be able to register.
+Step 11: After registering, go to phpMyAdmin
+Step 12: Choose your database, now click users.
+Step 13: Find yours, click edit and change approve 0 to 1, and user_level 0 to 5.

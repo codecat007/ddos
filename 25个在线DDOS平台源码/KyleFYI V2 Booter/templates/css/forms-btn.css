@@ -1,0 +1,84 @@
+/*
+Template Name: Mustache
+Author: Rory Kranendonk
+Author URI: http://www.dreamwire.nl
+Version: 1.0
+*/
+
+button::-moz-focus-inner {border:0;padding:0;margin:0;}
+
+button{
+	display : inline-block;
+	background : none;
+	-moz-box-shadow: 1px 1px 0 #ededed;
+	-webkit-box-shadow: 1px 1px 0 #ededed;
+	box-shadow: 1px 1px 0 #ededed;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#ededed')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#ededed');
+	border : 1px solid #d2d2d2;
+	outline : none;
+	padding : 0;
+	margin : 0 0 1px 1px;
+    overflow : visible;
+	cursor : pointer;
+	width : auto;
+	height : 27px;
+}
+
+button:first-child{
+	margin : 0 0 1px 0;
+}
+
+button:hover{
+	opacity : 0.7;
+	filter : alpha(opacity=70);
+}
+
+button span {
+	display : block;
+	background : url(../gfx/forms-btn.gif) repeat-x left top #FFFFFF;
+	padding : 0 15px;
+	margin : 0;
+	font : 12px/25px Arial;
+	font-weight : bold;
+	letter-spacing : 0.08em;
+	color : #7d7c7c;
+	text-transform : uppercase;
+	height : 25px;
+}
+
+button.red {
+	border : 1px solid #ba0000;
+}
+
+button.red span {
+	background : url(../gfx/forms-btn.gif) repeat-x left -25px #FFFFFF;
+	color : #FFFFFF;
+}
+
+button.green {
+	border : 1px solid #4b9700;
+}
+
+button.green span {
+	background : url(../gfx/forms-btn.gif) repeat-x left -50px #FFFFFF;
+	color : #FFFFFF;
+}
+
+button.blue {
+	border : 1px solid #0049ac;
+}
+
+button.blue span {
+	background : url(../gfx/forms-btn.gif) repeat-x left -75px #FFFFFF;
+	color : #FFFFFF;
+}
+
+button.orange {
+	border : 1px solid #e96e00;
+}
+
+button.orange span {
+	background : url(../gfx/forms-btn.gif) repeat-x left -100px #FFFFFF;
+	color : #FFFFFF;
+}

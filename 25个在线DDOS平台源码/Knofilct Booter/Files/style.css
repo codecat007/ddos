@@ -1,0 +1,245 @@
+a:link		{color:#DDDDDD;text-decoration:none;}
+a:visited 	{color:#DDDDDD;text-decoration:none;}
+a:hover		{color:#FFFFFF;text-decoration:none;}
+a:active	{color:#FFFFFF;text-decoration:none;}
+body{
+	background-color:#000000;
+	background-image:url('bg.png');
+	background-repeat:repeat-x;
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	color:white;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size:14px;}
+#top{
+	background-image:url('top-bg.png');
+	background-repeat:repeat-x;
+	padding:6px;
+	margin-top:60px;
+	height:69px;
+	width:788px;
+	border:1px solid #808080;
+	text-align:left;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;}
+
+#placeholder{
+	width:800px;
+	margin:0px 0px 10px 0px;}
+#placeholderL{
+	float:left;
+	width:200px;
+	margin:0px;}
+#placeholderR{
+	float:left;
+	width:600px;
+	margin:0px;}
+#footer{
+	background-image:url('transbg.png');
+	background-repeat:repeat;
+	width:790px;
+	border:1px solid #808080;
+	margin-top:10px;
+	padding:5px;
+	height:16px;
+	float:left;
+	font-size:12px;}
+.left{
+	background-image:url('transbg.png');
+	background-repeat:repeat;
+	width:190px;
+	border:1px solid #808080;
+	margin-top:10px;
+	padding:5px;
+	float:left;
+	text-align:left;}
+.right{
+        
+	background-repeat:repeat;
+	width:576px;
+	margin-top:10px;
+	border:1px solid #808080;
+	float:right;
+	text-align:left;
+	padding:5px;}
+.box{
+	background-image:url('transbg.png');
+	background-repeat:repeat;
+	border:1px solid #808080;
+	margin-top:10px;
+	padding:5px;}
+.menu{
+	list-style-type:none;
+	margin:0px 0px 0px -24px;}
+.title{
+	font-weight: bold;
+	font-size:18px;}
+.logo{
+	margin:-20px 0px 0px 0px;}
+.tabs{
+	float:right;
+	position:absolute;
+	top:133px;
+	margin:0px 0px 0px 300px;}
+.tab{
+	background-image:url('transbgtab.png');
+	border:1px solid #808080;
+	padding:5px 10px 5px 10px;
+	margin-left:10px;
+	float:left;
+	cursor:pointer;}
+.tab:hover{
+	background-image:url('transbgtabh.png');
+	border:1px solid #808080;
+	padding:5px 10px 5px 10px;
+	margin-left:10px;
+	float:left;
+	cursor:pointer;}
+.dots{
+	border:0px solid #808080;
+	padding:1px;
+	margin-left:10px;
+	float:left;
+	cursor:auto;
+}
+.dots:hover{
+	border:0px solid #808080;
+	padding:1px;
+	margin-left:10px;
+	float:left;
+	cursor:auto;
+}
+.input {
+
+	font-size:13px;
+	
+	border:#000 1px solid;
+	
+	/*border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;*/
+	
+	padding-left:4px;
+	
+	background-color:#FFF;
+	
+	height:20px;
+	width:200px;
+	
+}
+
+.select_input {
+
+	font-size:13px;
+	
+	border:#000 1px solid;
+	
+	/*border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;*/
+	
+	padding-left:4px;
+	
+	background-color:#FFF;
+	
+	height:20px;
+	width:207px;
+	
+}
+
+.heading_1 {
+
+	font-size: 16px;
+	font-weight:bold;
+	color:#FFF;
+	
+}
+
+.heading_2 {
+
+	font-size: 20px;
+	font-weight:bold;
+	color:#FF4646;
+	
+}
+
+#button {
+	-webkit-box-shadow: rgba(0, 0, 0, 0.496094) 0px 1px 3px 0px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.496094) 0px 1px 3px 0px;
+	box-shadow: rgba(0, 0, 0, 0.496094) 0px 1px 3px 0px;
+	/*border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;*/
+	background-color:#A60000;
+	background-origin: padding-box;
+	border-bottom-color: rgba(0, 0, 0, 0.246094);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	color: white;
+	cursor: pointer;
+	display: block;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 14px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: rgba(0, 0, 0, 0.246094) 0px -1px 1px;
+	height: 15px;
+	width: 120px;
+	
+}
+
+.error_box {
+
+	color:#FF4646;
+	
+}
+
+#welcome_box {
+
+	padding:10px;
+	
+	/*border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;*/
+	
+	background-color:#A6CCF7;
+	
+	width:360px;
+	height:90px;
+	
+	overflow:auto;
+	
+	font-size:12px;
+	
+	text-align:left;
+	
+}
+
+#tbox {
+
+	
+        background-color:#FFF;
+
+	
+}
+
+#tebox {
+
+	color:#FFF;
+	overflow:auto;
+	
+}

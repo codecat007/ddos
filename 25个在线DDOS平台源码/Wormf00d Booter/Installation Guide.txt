@@ -1,0 +1,29 @@
+REMEMBER IF SHIT DONT FLOW AND YOU GET ERRORS, CHECK THAT YOU UPLOAD
+"dbprepare.sql" I GOT THAT PROBLEM TOO.
+Oi, caps makes you look tough 
+<3 Cryptic
+
+
+THIS GUIDE SHOULD HELP YOU SETUP WORMF00D SOURCE, IF IT DOESN'T I DON'T KNOW. THIS SHIT'S FREE, I DON'T WANT TO SET IT UP FOR YOU.
+<333
+
+Step 1: Download the booter source, either public or premium one.
+Step 2: Upload the files to your webhost, extract them, load them.
+Step 3: You should have a mySQL error.
+Step 4: Open dbc.php, edit the configuration according to yours on Lines 3,4,5,6.
+Step 5: To make a user go to cPanel main menu and choose "mySQL Databases"
+Step 6: Create a database, and a user.
+Step 7: After doing the above, assign the user to that database.
+Step 8: Give that user all priviledges.
+Step 9: Edit dbc with the information you just created.
+Step 10: You should now be able to register.
+Step 11: After registering, go to phpMyAdmin
+Step 12: Choose your database, now click users.
+Step 13: Find yours, click edit and change approve 0 to 1, and user_level 0 to 5.
+Step 14: Theres a hub file we need to edit, edit includes/ezSQL.php Lines 44 and 71 with your database info.
+Step 15: If you would like to change the logo, it's located at images/info.png, if you wanna change the location edit header.php on line 16.
+Step 16: To turn Shell Rotation on, Open dbc.php and edit line 8 from 0 to 1, to turn it off do that change 1 to 0. RotationAmount on line 9 is the amount of shells you want each hit to use.
+Step 17: To fix your booters name, Open phpMyAdmin, chose your database, then go to config, then edit the value to your booter name.
+Step 18: To change the register.php title to your booter's name, edit "Your Booter" on line 83 to Your booters name.
+
+Credits for guide: Wynston

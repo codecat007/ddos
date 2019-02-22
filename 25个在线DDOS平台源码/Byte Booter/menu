@@ -1,0 +1,93 @@
+#!/bin/bash
+BLACK='\e[0;30m'
+BLUE='\e[0;34m'
+GREEN='\e[0;32m'
+CYAN='\e[0;36m'
+RED='\e[0;31m'
+PURPLE='\e[0;35m'
+BROWN='\e[0;33m'
+LIGHTGRAY='\e[0;37m'
+DARKGRAY='\e[1;30m'
+LIGHTBLUE='\e[1;34m'
+LIGHTGREEN='\e[1;32m'
+LIGHTCYAN='\e[1;36m'
+LIGHTRED='\e[1;31m'
+LIGHTPURPLE='\e[1;35m'
+YELLOW='\e[1;33m'
+WHITE='\e[1;37m'
+NC='\e[0m'              # No Color
+# Trap Signal Script
+#
+exit_script()
+{
+  echo "* * *Trap * * *"
+  ./menu
+}
+
+exit_script1()
+{
+  exit 1
+}
+
+Take_input1()
+{
+clear
+while :
+do
+    clear
+    echo -e " ${WHITE} "
+echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+echo -e " ${WHITE}~~~                     Byte [${BLUE}Regular Version${WHITE}]                      ~~~ "
+echo -e " ${WHITE}~~~                    Offical Partner:${BLUE} Pimpsac ${WHITE}                    ~~~ "
+echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+echo -e " ${GREEN} ~~~${LIGHTBLUE}                          ____ ___  _ ____ ____           ${GREEN}     ~~~ "
+echo -e " ${GREEN} ~~~${LIGHTBLUE}                         /  __\  \//__ __Y  __/         ${GREEN}       ~~~ "
+echo -e " ${GREEN} ~~~${LIGHTBLUE}                         ! ! //\  /  / \ !  \             ${GREEN}     ~~~ "  
+echo -e " ${GREEN} ~~~${LIGHTBLUE}                         ! !_\\ / /   ! ! !  /_             ${GREEN}    ~~~ "  
+echo -e " ${GREEN} ~~~${LIGHTBLUE}                         \___//_/    \_/ \____\            ${GREEN}    ~~~ "
+echo -e "${WHITE} ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+echo  "  =====================================================================   "
+echo -e "${YELLOW} ~~~ [1] Perl UDP Flood || [2] Python UDP Flood || [3] Byte Flood    ~~~ "
+echo -e "${GREEN} -----------------------------------------------------------------------"                                                    
+echo -e "${YELLOW} ~~~ ${RED}[4] Spoofed UDP Flood${YELLOW} || [5] Hold Em Off || [6] Website Flood   ~~~ "
+echo -e "${GREEN} -----------------------------------------------------------------------"
+echo -e "${YELLOW} ~~~ [7] Proxy || ${RED}[8] List Proccess's${YELLOW}  ||  [9] Change Password       ~~~ "
+echo -e "${GREEN} -----------------------------------------------------------------------"
+echo -e "${YELLOW} ~~~ ${RED}[10] Online Users${YELLOW} || [11] About   ||  [12] Exit Menu            ~~~ "
+echo -e "${GREEN} -----------------------------------------------------------------------"
+echo -e "${YELLOW} ~~~      ||${RED} [911][Admin Menu Only] Kill Menu For All Users${YELLOW} ||       ~~~ "
+echo -e "${GREEN} -----------------------------------------------------------------------" 
+echo -e "${CYAN} Enter your menu choice [1-12 & 911]: "
+read choice
+case $choice in
+      1) ./dos ;;
+      2) ./dos2 ;;
+      6) ./dos3 ;;
+      4) echo -e "${RED}Admin Only Option, Not Availible for Regular Users. Press Enter" ; read ;;
+      5) ./dos5 ;;
+      3) ./Byteflood ;;
+	  7) ./nmap ;;
+	 10) echo -e "${RED}Admin Only Option, Not Availible for Regular Users. Press Enter" ;  read  ;;
+	  8) echo -e "${RED}Admin Only Option, Not Availible for Regular Users. Press Enter" ; read ;;
+	  9) ./changepw ;;
+	  11) ./about ;;
+      12) echo "" ;  exit 1 ; clear ;;
+      911) echo -e "${RED}Admin Only Option, Not Availible for Regular Users. Press Enter " ; read ;; 
+      *) echo "Invalid Selection, Please make another selection";
+         echo "Press enter. . ." ; read ;;
+ esac
+done # end_while
+}
+#
+# Set trap to for CTRL+C interrupt i.e. Install our error handler
+# When occurs it first it calls del_file() and then exit
+#
+trap exit_script 2
+#
+# Call our user define function : Take_input1
+#
+Take_input1
+
+
+
+

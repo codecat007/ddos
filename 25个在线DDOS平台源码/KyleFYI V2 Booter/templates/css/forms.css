@@ -1,0 +1,560 @@
+/*
+Template Name: Mustache
+Author: Rory Kranendonk
+Author URI: http://www.dreamwire.nl
+Version: 1.0
+*/
+
+form {
+	display : block;
+	margin : 0;
+	padding : 0;
+}
+
+.row {
+	display : block;
+	position : relative;
+	border-bottom : 1px solid #e5e5e5;
+	padding : 10px 15px 10px 0;
+	*padding : 9px 15px 9px 0;
+}
+
+.row:first-child {
+	border-top : 1px solid #e5e5e5;
+}
+
+.row  label {
+	position : absolute;
+	top : 16px;
+	left : 0;
+	padding : 0;
+	margin : 0;
+	cursor : text;
+	width : 125px;
+}
+
+.row .right {
+	display : block;
+	margin : 0 0 0 125px;
+}
+
+
+/* //////////////////// VALIDATION \\\\\\\\\\\\\\\\\\\\ */
+
+.row label.error{
+	position : static;
+	display : inline-block;
+	top : auto;
+	background : #F8E9E9;
+	border : 1px solid #E4BBBC;
+	margin : 5px 0 0;
+	padding : 6px 5px;
+	color : #b80000;
+	line-height : 1.3em;
+	width : 100%;
+	-moz-box-shadow: 1px 1px 0 #e6e6e6;
+	-webkit-box-shadow: 1px 1px 0 #e6e6e6;
+	box-shadow: 1px 1px 0 #e6e6e6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#e6e6e6')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#e6e6e6');
+	zoom: 1;
+}
+
+.row .right input.error,
+.row .right textarea.error {
+	border : 1px solid #E4BBBC;
+}
+
+/* //////////////////// INPUTFIELD \\\\\\\\\\\\\\\\\\\\ */
+
+.row .right input {
+	display : inline-block;
+	background : url(../gfx/input-back.gif) repeat-x left top;
+	border : 1px solid #dcdcdc;
+	outline : 0;
+	padding : 5px;
+	margin : 0;
+	font : 12px/1.2em Arial;
+	width : 100%;
+	height : 15px;
+}
+
+.placeholder {color: #aaa;}
+
+/* //////////////////// TEXTAREA \\\\\\\\\\\\\\\\\\\\ */
+
+.row .right textarea {
+	display : inline-block;
+	background : url(../gfx/input-back.gif) repeat-x left top;
+	border : 1px solid #dcdcdc;
+	resize : none;
+	outline : 0;
+	overflow : auto;
+	padding : 6px;
+	margin : 0;
+	font : 12px/1.5em Arial;
+	width : 100%;
+}
+
+/* //////////////////// SELECTBOX \\\\\\\\\\\\\\\\\\\\ */
+
+.ui-selectmenu {
+	display : inline-block;
+	position : relative;
+	background : url(../gfx/input-back.gif) no-repeat right top transparent;
+	border : 1px solid #dcdcdc;
+	margin : 0 3px 0 0;
+	text-decoration : none;
+	overflow : hidden;
+	outline : none;
+	width : 150px;
+	height : 25px;
+}
+
+a.ui-selectmenu, a.ui-selectmenu:link, a.ui-selectmenu:active, a.ui-selectmenu:visited {
+	text-decoration : none;
+}
+
+.ui-selectmenu-status {
+	float : left;
+	padding : 6px 10px 0;
+	outline : none;
+	overflow : hidden;
+	font : 12px/1.0em Arial;
+	font-weight : 100;
+	cursor : pointer;
+	color : #000000;
+	text-decoration : none;
+	width : 105px;
+	height : 13px;
+}
+
+.ui-selectmenu-icon {
+	float : right;
+	background : url(../gfx/select-btn.gif) no-repeat right top transparent;
+	border-left : 1px solid #dcdcdc;
+	width : 24px;
+	height : 25px;
+}
+
+a.ui-selectmenu {
+	text-decoration : none;
+}
+
+.ui-selectmenu-menu {
+	position : absolute;
+	display : none;
+	top : 0;
+	z-index : 9999;
+	background-color : #FFFFFF;
+	border : 1px solid #dcdcdc;
+	padding : 0;
+	margin : 1px 0 0 0;
+	list-style : none;
+	overflow : auto;
+	width : 150px;
+	max-height : 175px;
+}
+
+.ui-selectmenu-open {
+	display : block;
+}
+
+.ui-selectmenu-menu li {
+	display : block;
+	background : #FFFFFF;
+	border-top : 1px solid #e5e5e5;
+	outline : none;
+	padding : 0;
+	margin : 0;
+}
+
+.ui-selectmenu-menu li:first-child {
+	border-top : none;
+}
+
+.ui-selectmenu-menu li a {
+	display : block;
+	padding : 8px 10px;
+	outline : none;
+	overflow : hidden;
+	font : 12px/1.0em Arial;
+	font-weight : 100;
+	cursor : pointer;
+	color : #807f7f;
+	text-decoration : none;
+}
+
+.ui-selectmenu-menu li a:hover, li.ui-selectmenu-item-selected a {
+	background : #fafafa;
+	color : #000000;
+}
+
+.ui-selectmenu.small,
+.ui-selectmenu-menu.small {
+	width : 75px;
+}
+
+.ui-selectmenu.small .ui-selectmenu-status {
+	width : 30px;
+}
+
+.ui-selectmenu.big,
+.ui-selectmenu-menu.big {
+	width : 300px;
+}
+
+.ui-selectmenu.big .ui-selectmenu-status {
+	width : 255px;
+}
+
+.multiple {
+	display : block;
+	border : 1px solid #c5c5c5;
+	outline : 0;
+	padding : 5px;
+	cursor : text;
+	font : 12px/2em Arial;
+	color : #1c1c1c;
+	width : 100%;
+}
+
+/* //////////////////// SPINNERS \\\\\\\\\\\\\\\\\\\\ */
+
+.row .right .spin, .row .right .spin-dec, .row .right .spin-cur {
+	width : 80px;
+}
+
+.row .right .ui-spinner {
+	position : relative;
+	display : block;
+	width : 80px;
+}
+
+.row .right .ui-spinner-buttons {
+	position : absolute;
+	margin : 1px 0 0 0;
+}
+
+.row .right .ui-spinner-button {
+	overflow : hidden;
+}
+
+.row .right .ui-spinner-buttons .ui-spinner-up {
+	background : url(../gfx/back-spinners.gif) no-repeat right top #FFFFFF;
+	cursor : pointer;
+	overflow : hidden;
+	width : 32px;
+	height : 12px;
+}
+
+.row .right .ui-spinner-buttons .ui-spinner-down {
+	background : url(../gfx/back-spinners.gif) no-repeat right bottom #FFFFFF;
+	cursor : pointer;
+	overflow : hidden;
+	width : 32px;
+	height : 12px;
+}
+
+.row .right .ui-spinner-buttons .ui-spinner-up:hover,
+.row .right .ui-spinner-buttons .ui-spinner-down:hover{
+	opacity : 0.6;
+	filter : alpha(opacity=60);
+}
+
+/* //////////////////// CHECKBOXES & RADIOBUTTONS \\\\\\\\\\\\\\\\\\\\ */
+
+table input[type=checkbox],
+table input[type=radio] {
+	background : none;
+	padding : 0;
+	border : none;
+	width : 13px;
+	height : 13px;
+}
+
+.row .right .custom-checkbox, .custom-radio {
+	display : inline-block;
+	position : relative;
+	margin : 7px 0 0 20px;
+}
+
+.row .right .custom-checkbox:first-child, .row .right .custom-radio:first-child {
+	margin : 7px 0 0 0;
+}
+
+.row .right .custom-checkbox input, 
+.row .right .custom-radio input {
+	position : absolute;
+	background : transparent;
+	left : 0;
+	top : 0;
+	margin : 0;
+	z-index : -1;
+	width : 13px;
+	height : 13px;
+}
+
+.row .right .custom-checkbox label, 
+.row .right .custom-radio label {
+	display : inline-block;
+	position : relative;
+	top : 0;
+	padding : 0 0 0 23px;
+	margin : 0;
+	font-size : 12px/13px Arial;
+	color : #1c1c1c;
+	cursor : pointer;
+	width : auto;
+	height : 15px;
+}
+
+.row .right .custom-checkbox label {
+	background : url(../gfx/checkbox.gif) no-repeat;
+}
+
+.row .right .custom-radio label {
+	background : url(../gfx/radiobutton.gif) no-repeat;
+}
+
+.row .right .custom-checkbox label.hover,
+.row .right .custom-checkbox label.focus,
+.row .right .custom-radio label.hover,
+.row .right .custom-radio label.focus,
+.row .right .custom-checkbox label, 
+.row .right .custom-radio label {
+	background-position : left bottom;
+}
+
+.row .right .custom-checkbox label.checked, 
+.row .right .custom-radio label.checked,
+.row .right .custom-checkbox label.checkedHover, 
+.row .right .custom-checkbox label.checkedFocus {
+	background-position : left top;
+}
+
+/* //////////////////// FILE INPUT STYLE \\\\\\\\\\\\\\\\\\\\ */
+
+.row .right input.file {
+	display : inline-block;
+}
+
+.row .right div.file-btn{
+	background : url(../gfx/browse.gif) no-repeat left top;
+	margin : 0 0 0 3px;
+	cursor : pointer;
+}
+
+.row .right div.file-btn input{
+	padding : 100px;
+}
+
+.row .right div.btn-upload:hover{
+	opacity : 0.6;
+	filter : alpha(opacity=60);
+}
+
+/* //////////////////// SLIDER \\\\\\\\\\\\\\\\\\\\ */
+
+.row .right .slider{
+	display : block;
+	font : 11px/1.0em Arial;
+	color : #9b9b9b;
+}
+
+.row .right .slider input {
+	display : inline-block;
+	background : none;
+	border : 0;
+	padding : 0;
+	text-align : left;
+	font : 11px/1.0em Arial;
+	width : 20px;
+}
+
+.row .right .slider .ui-slider-horizontal{
+	position : relative;
+	background : url(../gfx/input-back.gif) repeat-x left top;
+	border : 1px solid #dcdcdc;
+	padding : 0 6px;
+	margin : 5px 0 3px;
+	width : 100%;
+	height : 7px;
+}
+
+.row .right .slider .ui-slider-horizontal .ui-slider-range {
+	top : 0;
+	height : 100%;
+}
+
+.row .right .slider .ui-slider .ui-slider-range {
+	position : absolute;
+	background : #e8e8e8;
+	z-index : 1;
+	font-size : 11px;
+	display : block;
+	border : 0;
+	background-position : 0 0;
+}
+
+.row .right .slider .ui-slider-horizontal .ui-slider-handle {
+	margin : 0 0 0 -7px;
+}
+
+.row .right .slider .ui-slider .ui-slider-handle {
+	position : absolute;
+	top : -4px;
+	background : url(../gfx/slider-btn.png) no-repeat;
+	outline : none;
+	z-index : 2;
+	cursor : default;
+	width : 15px;
+	height : 15px;
+}
+
+.row .right .slider.single-vert-slide { 
+	position : relative;
+	display : inline-block;
+	margin : 0 20px 0 0;
+	width : 6px;
+	height : 70px;
+}
+
+.row .right .ui-slider-vertical { 
+	position : relative;
+	background : url(../gfx/input-back.gif) repeat-y left top;
+	border : 1px solid #dcdcdc;
+	margin : 5px 0 3px;
+	width : 6px;
+	height : 70px;
+}
+
+.row .right .ui-slider-vertical .ui-slider-handle {
+	left : -5px;
+	margin-bottom : -8px;
+}
+
+.row .right .slider .ui-slider-vertical .ui-slider-handle {
+	top : auto;
+}
+
+.row .right .ui-slider-vertical .ui-slider-range { 
+	left : 0; 
+	width : 100%;
+}
+
+.row .right .ui-slider-vertical .ui-slider-range-min { 
+	bottom : 0;
+}
+
+.row .right .ui-slider-vertical .ui-slider-range-max { 
+	top : 0;
+}
+
+/* //////////////////// DATEPICKER \\\\\\\\\\\\\\\\\\\\ */
+
+.row .right input.datepicker {
+	width : 65px;
+}
+
+div.datepicker,
+#ui-datepicker-div {
+	width : 228px;
+}
+
+#ui-datepicker-div {
+	margin : -1px 0 0;
+}
+
+.ui-datepicker-calendar {
+	background : #FFFFFF;
+}
+
+.ui-datepicker-calendar thead {
+	background : url(../gfx/box-title.gif) repeat-x left top;
+	border-top : none;
+}
+
+.ui-datepicker-calendar thead th,
+.ui-datepicker-calendar tbody td {
+	text-align : center;
+	padding : 0;
+}
+
+.ui-datepicker-calendar thead th {
+	border-top : none;
+	padding : 8px 0 9px;
+}
+
+.ui-datepicker-header {
+	display : block;
+	background : url(../gfx/box-title.gif) repeat-x left top;
+	border : 1px solid #e5e5e5;
+}
+
+.ui-datepicker-header a.ui-datepicker-prev, .ui-datepicker-header a.ui-datepicker-prev:link, .ui-datepicker-header a.ui-datepicker-prev:active, .ui-datepicker-header a.ui-datepicker-prev:visited {
+	float : left;
+	position : relative;
+	background : url(../gfx/datepicker.gif) no-repeat left top;
+	border-right : 1px solid #e5e5e5;
+	text-indent: -99999px;
+	cursor : pointer;
+	width : 31px;
+	height : 29px;
+}
+
+.ui-datepicker-header .ui-datepicker-title {
+	text-align : center;
+	font : 12px/29px Arial;
+	font-weight : bold;
+}
+
+.ui-datepicker-header a.ui-datepicker-next, .ui-datepicker-header a.ui-datepicker-next:link, .ui-datepicker-header a.ui-datepicker-next:active, .ui-datepicker-header a.ui-datepicker-next:visited {
+	float : right;
+	position : relative;
+	background : url(../gfx/datepicker.gif) no-repeat right top;
+	border-left : 1px solid #e5e5e5;
+	text-indent: -99999px;
+	cursor : pointer;
+	width : 31px;
+	height : 29px;
+}
+
+.ui-datepicker-header .ui-datepicker-next span,
+.ui-datepicker-header .ui-datepicker-prev span {
+	display : none;
+}
+
+.ui-datepicker-header .ui-datepicker-prev:hover,
+.ui-datepicker-header .ui-datepicker-next:hover {
+	opacity : 0.45;
+	filter : alpha(opacity=45);
+}
+
+.ui-datepicker-current-day a, .ui-datepicker-current-day a:link, .ui-datepicker-current-day a:active, .ui-datepicker-current-day a:visited,
+.ui-datepicker-today  a, .ui-datepicker-today  a:link, .ui-datepicker-today  a:active, .ui-datepicker-today  a:visited,
+.ui-datepicker-calendar a, .ui-datepicker-calendar a:link, .ui-datepicker-calendar a:active, .ui-datepicker-calendar a:visited {
+	display : block;
+	padding : 8px 0;
+	color : #000000;
+	text-decoration : none;
+}
+
+.ui-datepicker-current-day a, .ui-datepicker-current-day a:link, .ui-datepicker-current-day a:active, .ui-datepicker-current-day a:visited {
+	background : #EFEFEF;
+}
+
+.ui-datepicker-today  a, .ui-datepicker-today  a:link, .ui-datepicker-today  a:active, .ui-datepicker-today  a:visited {
+	background : #e10000;
+	color : #FFFFFF;
+}
+
+.ui-datepicker-calendar a:hover {
+	color : #e10000;
+	text-decoration : none;
+}
+
+.ui-datepicker-today a:hover {
+	color : #000000;
+	text-decoration : none;
+}

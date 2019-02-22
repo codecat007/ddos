@@ -1,0 +1,321 @@
+/*   
+  SmartWizard 2.0 plugin 
+  jQuery Wizard control Plugin
+  by Dipu
+  
+  http://www.techlaboratory.net
+  http://tech-laboratory.blogspot.com
+*/
+.swMain {
+  position:relative;
+	display:block;
+	margin:0;
+	padding:0;
+	overflow:visible;
+	float:left;
+	width:100%;
+}
+.swMain .stepContainer {
+  display:block;
+	position: relative;
+	margin: 0;
+	padding:0;
+	overflow:hidden;
+	clear:both;
+	margin-bottom: 20px;
+}
+
+.swMain .stepContainer div.content {
+  display:block;
+	border:none;
+	background-image:none;
+	position: absolute;
+	float:left;
+	margin: 0;
+	padding:0;
+	text-align:left;
+	overflow:visible;
+	width:100%;
+	clear:both;
+}
+
+.swMain div.actionBar {
+  display:block;
+  position: relative; 
+  clear:both;
+  margin:             3px 0 0 0;   
+  border-top:             1px dotted #CCC;
+  padding:            1em 0 0;    
+  color:              #5A5655;   
+  min-height:50px;
+  text-align:left;
+  overflow:auto;    
+  z-index:88; 
+  left:0;
+}
+
+
+
+
+.swMain .buttonNext {
+  display:block;
+  float:right;
+  margin:5px 3px 0 3px;
+  
+  width:100px;   
+}
+.swMain .buttonDisabled {
+	opacity: .4;
+  cursor:text;    
+}
+.swMain .buttonPrevious {
+  display:block;
+  float:right;
+  margin:5px 3px 0 3px;
+  
+  width:100px;   
+}
+.swMain .buttonFinish {
+  display:block;
+  float:right;
+  margin:5px 10px 0 3px;
+  
+  width:100px;   
+}
+
+/* Form Styles */
+
+.txtBox {
+  border:1px solid #CCCCCC;
+  color:#5A5655;
+  font:13px Verdana,Arial,Helvetica,sans-serif;
+  padding:2px;
+  width:430px;
+}
+.txtBox:focus {
+  border:1px solid #EA8511;
+}
+
+.swMain .loader {
+  position:relative;  
+  display:none;
+  float:left;  
+  margin: 2px 0 0 2px;
+  padding:8px 10px 8px 40px;
+  border: 1px solid #FFD700; 
+   
+  color:#5A5655;       
+  background: #FFF url(../images/loader.html) no-repeat 5px;  
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:998;
+}
+.swMain .msgBox {
+  position:relative;  
+  display:none;
+  float:left;
+  margin: 4px 0 0 5px;
+  padding:5px;
+  border: 1px solid #FFD700; 
+  background-color: #FFFFDD;  
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif; 
+  color:#5A5655;         
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:999;
+  min-width:200px;  
+}
+.swMain .msgBox .content {
+  font: normal 12px Verdana,Arial,Helvetica,sans-serif;
+  padding: 0px;
+  float:left;
+}
+.swMain .msgBox .close {
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  color: #CCC;
+  display: block;
+  float: right;
+  margin: 0 0 0 5px;
+  outline-style: none;
+  padding: 0 2px 0 2px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+.swMain .msgBox .close:hover{
+  color: #EA8511;
+  border: 1px solid #EA8511;  
+}
+
+
+
+
+
+.wizard-steps {
+							display: table;
+							
+							padding: 0 0 1.25em;
+							margin: 0 0 2.75em;
+							
+							width: 100%;
+							
+							
+							border-bottom: 1px dotted #BBB;
+							
+						}
+						
+						.wizard-steps li {
+							display: table-cell;
+							
+							list-style: none;
+						}
+						
+						
+						
+						.wizard-steps .wizard-step-bar {
+							position: absolute;
+							top: 20px;
+							z-index: 1;
+							
+							
+							width: 100%;
+							height: 6px;
+							
+							background: #CCC;
+						}
+						
+						.wizard-steps a {
+							position: relative;
+							z-index: 10;
+							
+							display: block;
+							
+							color: #777;
+							
+							font-size: 13px;
+							font-weight: 600;
+							text-align: center;
+							
+							
+							background: url(connector.html) repeat-x 0 20px;
+						}
+						
+						.wizard-steps a:hover {
+							text-decoration: none;
+						}
+						
+						
+						
+						.wizard-steps .wizard-step-number {
+							position: relative;
+							z-index: 10;
+							
+							display: inline-block;
+							
+							margin-bottom: .85em;
+							
+							width: 44px;
+							height: 44px;
+							
+							color: #444;
+							
+							font-size: 16px;
+							font-weight: 600;
+							text-align: center;
+							line-height: 44px;
+							
+							
+							background: #D9D9D9;
+							
+							border: 1px solid #CBCBCB;
+							
+							-moz-border-radius: 100px;
+							-webkit-border-radius: 100px;
+							border-radius: 100px;
+							
+							-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+							-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+							box-shadow: inset 0 1px 0 rgba(255,255,255,0.5);
+						}
+						
+						
+						.wizard-steps .wizard-step-number {
+							-moz-border-radius: 0\9;
+							-webkit-border-radius: 0\9;
+							border-radius: 0\9;
+						}
+						
+						
+						
+						.wizard-steps a.done {
+							background-image: url(connector-done.html);							
+						}
+						
+						.wizard-steps a.selected {
+							background-image: url(connector-active.html);							
+						}
+						
+						
+						.wizard-steps a.done .wizard-step-number,
+						.wizard-steps a.done .wizard-step-bar {
+							color: #FFF;
+							
+							
+							
+							background-color: #263849; 
+							background-image: -moz-linear-gradient(top, #3C4C5B, #263849); 
+							background-image: -ms-linear-gradient(top, #3C4C5B, #263849); 
+							background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3C4C5B), to(#263849));
+							background-image: -webkit-linear-gradient(top, #3C4C5B, #263849); 
+							background-image: -o-linear-gradient(top, #3C4C5B, #263849); 
+							background-image: linear-gradient(top, #3C4C5B, #263849); 
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3C4C5B', endColorstr='#263849', GradientType=0);
+							
+							
+							
+							border-color: #292C32;
+							
+							text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+						}
+						
+						.wizard-steps a.selected .wizard-step-number,
+						.wizard-steps a.selected .wizard-step-bar {
+							color: #FFF;
+							
+							background: #FBB450; 
+							background: -moz-linear-gradient(top,  #FBB450 0%, #F89406 100%); 
+							background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBB450), color-stop(100%,#F89406)); 
+							background: -webkit-linear-gradient(top,  #FBB450 0%,#F89406 100%); 
+							background: -o-linear-gradient(top,  #FBB450 0%,#F89406 100%); 
+							background: -ms-linear-gradient(top,  #FBB450 0%,#F89406 100%); 
+							background: linear-gradient(top,  #FBB450 0%,#F89406 100%); 
+							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FBB450', endColorstr='#F89406',GradientType=0 );
+								
+							border-color: #E68E0B; 
+							
+							text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+						}
+
+
+@media (max-width: 767px) {
+	
+	.wizard-steps a {
+		background-position: 0 13px;
+	}
+
+	.wizard-steps .wizard-step-number {
+		width: 30px;
+		height: 30px;
+		
+		font-size: 13px;
+		line-height: 30px;
+	}
+	
+	.wizard-steps .wizard-step-label {
+		padding: 0 10px;
+		font-size: 11px;
+	}
+
+}
+

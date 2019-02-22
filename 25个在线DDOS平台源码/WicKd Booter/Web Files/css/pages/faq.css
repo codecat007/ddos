@@ -1,0 +1,20 @@
+
+/*------------------------------------------------------------------
+
+[Faq Page Stylesheet]
+
+	Project:		Corona Admin
+	Version:		1.0
+	Last change:	05/30/2012
+	Assigned to:	Rod Howard (rh)
+	
+
+-------------------------------------------------------------------*/
+
+.btn-support-ask {
+		display: block; font-size: 23px; padding: 18px 0; font-weight: 600; margin-bottom: .75em;
+	}
+	
+	.btn-support-contact {
+		display: block; padding: 15px 0; font-size: 18px; font-weight: 600;
+	}

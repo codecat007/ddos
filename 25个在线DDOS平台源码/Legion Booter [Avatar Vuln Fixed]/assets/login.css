@@ -1,0 +1,17 @@
+html,body{color:#999;background:#EAEAEA;font:13px "Trebuchet MS", Arial, Helvetica, sans-serif;margin:0;padding:0}
+form{display:inline;margin:0;padding:0}
+ul,li,ol{list-style-type:none}
+img,ul,li,p,form,input{margin:0;padding:0}
+#admin_form label{display:block;padding-top:8px;padding-bottom:5px;padding-left:5px;font-size:13px;font-weight:700}
+#admin_form .inputbox, input{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:14px;font-weight:lighter;background:#F8F8F8;border:1px solid #CCC;width:335px;-moz-border-radius:5px;-khtml-border-radius:5px;-webkit-border-radius:5px;margin:0;padding:5px}
+#admin_form .button{height:30px;width:80px;cursor:pointer;background:#3B6B9C;color:#FFF;line-height:30px;-moz-border-radius:5px;-khtml-border-radius:5px;-webkit-border-radius:5px;border-width:0;margin:0;padding:0}
+#admin_form .button:hover{background:#4A83BB}
+
+#content{width:350px;margin-right:auto;margin-left:auto;background:#FFF;border:6px solid #CCC;margin-top:220px;-moz-border-radius:10px;-khtml-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;padding:20px}
+#content h1{font-size:16px;color:#282828;border-bottom:1px dotted #CCC;background:url(../images/logout.png) no-repeat left center;line-height:28px;height:25px;margin:0 0 10px;padding:0 0 0 30px}
+#footer{height:25px;text-align:center;padding-top:10px}
+
+#message-box{width:350px;margin-right:auto;margin-left:auto;padding-top:10px;}
+.msgError{background-image:url(../images/error-bg.png);background-repeat:repeat-x;background-position:top;background-color:#F5D0CD;color:#8D0D0D;border:2px solid #900;-moz-border-radius:5px;border-radius:5px;padding:5px}
+.msgError span{background-image:url(../images/error-ico.png);background-repeat:no-repeat;background-position:5px center;display:inline-block;padding-right:10px;padding-left:30px;font-weight:700}
+.msgError .error li{background-image:url(../images/required.png);background-repeat:no-repeat;background-position:left center;padding-left:15px;margin-left:15px}

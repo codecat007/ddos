@@ -1,0 +1,280 @@
+body {background: #e0e0e0; margin: 0; padding: 0}
+	input, textarea, body {font-family: Arial, Helvetica, sans-serif; color: #666; font-size: 13px}
+	img {border: none}
+	p {margin: 0; padding: 0}
+	ul {list-style: none; padding:0; margin: 0}
+	h1, h2, h3, h4, h5, h6 {padding: 0 0 15px 0; margin: 0}
+	a {color: #666}
+		a:hover {color: #444}
+	
+	.left {float: left}
+	.right {float: right}
+	.extramar {margin-bottom: 15px}
+	.nomar {margin: 0!important}
+	
+/* Header/Top Bar Styles */
+
+	#header {height: 60px; background: #bababa url(../images/bg_header.png) repeat-x bottom; border-bottom: 1px solid #6c6c6c; position: relative; z-index: 1000}
+		.logo {float: left; padding: 15px 0 0 45px}
+	
+		#searchbox {float: right; background: #fff url(../images/bg_fade_sml.png) repeat-x top; border: 1px solid #fff; padding: 3px; -moz-border-radius: 5px; border-radius: 5px; -webkit-border-radius: 5px; margin: 10px 45px 0 0; -moz-box-shadow: 1px 1px 5px #555; width: 310px}
+		.searchbtn, #userbox li a {background-color: #ababab; background-image: -moz-radial-gradient(50% -8px , circle , #c8c8c8, #8d8d8d); padding: 6px; float: right; -moz-border-radius: 5px; border-radius: 5px; -webkit-border-radius: 5px}
+			.searchbtn:hover, .searchbtn:focus, #userbox li a:hover {background-color: #888; background-image: -moz-radial-gradient(50% -8px , circle , #a9a9a9, #6d6d6d)}
+		.searchinput {float: left; background: none; border: none; margin: 4px 0 0 5px; width: 250px; padding-right: 15px}
+	
+/* Left Side Styles */
+
+	#left {width: 210px; position: absolute; top: 61px}
+	
+/* Top Toolbox Slider */
+	
+	#toolbox {width: 180px; height: 40px; margin: 0 auto; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; -moz-box-shadow: 1px 1px 6px #999; box-shadow: 1px 1px 6px #999; -webkit-box-shadow: 1px 1px 6px #999}
+		#toolbox a {text-decoration: none; font-size: 18px; font-weight: 700; letter-spacing: -1px; padding: 8px 0 5px 10px; display: block; outline: none}
+			#toolbox img {position: relative; top: 5px; left: 75px}
+		
+		#slider {position: absolute; background-repeat: no-repeat; margin-top: -150px; z-index: 100}
+			ul#sliderContent {margin-left: 15px; position: absolute; z-index: 1}
+				ul#sliderContent li a {width: 160px; padding: 5px 10px; height: 20px; display: block; text-decoration: none}
+			#openCloseWrap {position:relative; margin: 150px 0 0 15px}	
+	
+	#userbox {width: 180px; position: absolute; top: 40px; left: 15px; padding: 20px 0 0 0; text-align: center; font-size: 16px; text-shadow: 1px 1px 1px #fff; font-weight: 700}
+		#userbox span {color: #888; font-size: 12px; letter-spacing: normal}
+		
+		#userbox ul {width: 100px; margin: 10px auto}
+			#userbox li {float: left}
+				#userbox li a {padding: 5px; margin-right: 5px; float: left}
+
+/* Navigation */
+
+	#nav {width: 210px; position: absolute; top: 160px}
+	
+	ul#nav li a.heading, a.collapsed, a.expanded, ul.navigation li.selected{background: #a7a7a7 url(http://209.217.226.156/~tforrest/admin_cp_2/themes/blue/bg_navigation_links.png) no-repeat top; text-shadow: 1px 1px 1px #d7d7d7; outline: none; width: 180px; display: block; color: #555; text-decoration: none; padding: 10px 0 10px 30px; font-size: 16px; font-weight: 700; cursor: pointer}
+			ul.navigation li.selected {padding: 10px 0 10px 10px; color: #fff; text-shadow: none; width: 200px; background: #4f4f4f!important}
+			
+	ul.navigation {width: 225px; color: #fff}
+			ul.navigation li a {text-shadow: 1px 1px 1px #fff; outline: none; background: url(../images/bg_nav_link.png) repeat-x bottom; width: 190px; display: block; color: #333; text-decoration: none; padding: 10px; font-size: 14px; border-bottom: 1px solid #e7e7e7}
+				ul.navigation li a:hover {background: url(../images/bg_nav_link.png) repeat-x top}
+
+/* Right Side Styles */
+
+	#right {margin: 0 20px 0 210px}
+	
+	/* Breadcrumb Styles */
+	
+		#breadcrumb {background: #4f4f4f url(../images/bg_breadcrumb.png) repeat-x bottom; padding: 12px; -webkit-border-bottom-right-radius: 10px; -webkit-border-bottom-left-radius: 10px; -moz-border-radius-bottomright: 10px; -moz-border-radius-bottomleft: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; overflow: auto}
+		
+		#breadcrumb li {float: left; padding-right: 10px; color: #fff; text-shadow: 1px 1px 1px #222}
+			#breadcrumb img {position: relative; top: 2px; left: 3px}
+			#breadcrumb li.current {font-weight: 700; font-size: 14px}
+				#breadcrumb a {color: #ddd; text-decoration: none}
+					#breadcrumb a:hover {color: #ccc}
+					
+	/* Top Button Styles */
+	
+		ul#topbtns {margin: 15px}
+			ul#topbtns li {float: left; margin-right: 15px; text-shadow: 1px 1px 1px #fff; color: #555}
+				ul#topbtns li.desc {padding-top: 15px}
+				ul#topbtns li span {font-size: 12px; color: #666}
+				ul#topbtns li img {padding: 15px 0 5px 0}
+				ul#topbtns li a {text-shadow: none; border: 1px solid #bbb; text-align: center; color: #666; text-decoration: none; -moz-box-shadow: 1px 1px 8px #ccc; -webkit-box-shadow: 1px 1px 8px #ccc; box-shadow: 1px 1px 8px #ccc; background: #fff url(../images/bg_fade_sml_reverse.png) repeat-x bottom; display: block; -moz-border-radius: 8px; border-radius: 8px; -webkit-border-radius: 8px; width: 70px; height: 70px; font-size: 11px; font-weight: 700}
+				
+					ul#topbtns li a:hover {-moz-box-shadow: 1px 1px 8px #aaa; box-shadow: 1px 1px 8px #aaa; -webkit-box-shadow: 1px 1px 8px #aaa; color: #444; border: 1px solid #999}
+					
+	/* Main Content Styles */
+	
+		#content {-moz-border-radius: 8px; border-radius: 8px; -webkit-border-radius: 8px; padding: 10px; background: #4f4f4f; clear: both; position: relative; top: 15px; min-height: 500px}
+		
+			.container {margin-bottom: 20px; background: #fff; padding: 1px; -moz-box-shadow: 1px 1px 2px #000; box-shadow: 1px 1px 2px #000; -webkit-box-shadow: 1px 1px 2px #000}
+			
+			.conthead {overflow: auto; padding: 10px 15px; margin: 0; background: #dbdbdb url(../images/bg_cont_head.png) repeat-x bottom; border-bottom: 1px solid #b4b4b4; text-shadow: 1px 1px 1px #f7f7f7}
+				.conthead h2 {font-size: 18px; margin: 0; padding: 0; olor: #444; letter-spacing: -1px}
+				
+			.contentbox {padding: 20px}
+				
+				ul.summarystats li, .tabfade {border-bottom: 1px solid #ccc; background: url(../images/bg_fade_sml_reverse.png) repeat-x bottom; padding: 5px 12px 12px; overflow: auto; margin-bottom: 10px}
+					ul.summarystats p {float: left; padding-bottom: 0; margin-top: 10px}
+						ul.summarystats p.statcount {font-size: 35px; font-weight: 700; letter-spacing: -1px; line-height: 0.6em; padding-right: 10px; min-width: 40px; line-height: 35px; margin: 0}
+						ul.summarystats p.statview {float: right; margin: 0}
+							ul.summarystats p.statview a {display: block; text-decoration: none; padding: 5px 10px; font-size: 14px; font-weight: 700; -moz-border-radius: 8px; border-radius: 8px; -webkit-border-radius: 8px}
+	
+	/* Tab Styles */
+	
+		.tabcontent {padding: 15px 0}
+		ul.tablinks {margin-bottom: 20px; padding-right: 0;}
+		
+		.ui-tabs .ui-tabs-nav li a {margin-right: 10px; display: block; -moz-border-radius: 8px; border-radius: 8px; -webkit-border-radius: 8px; background: #DBDBDB; text-decoration: none; color: #666; text-shadow: 1px 1px 1px #fff; font-size: 12px; padding: 5px 10px}
+		.ui-tabs .ui-tabs-nav li {float: right}
+		.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {background: #848484; color: #fff; text-shadow: none}
+		.ui-tabs .ui-tabs-hide {display: none}
+		.ui-tabs .ui-tabs-panel {background-image: none}
+		
+		.tabhead {float: right; min-width: 230px}
+			.tabhead li a {border: 1px solid #e9e9e9; margin: 0 0 0 10px!important}
+		
+	/* Alternative Box Widths */
+	
+		.med {
+	width: 60%
+}
+		.sml {width: 38%}
+		.half {width:49%}
+	
+	/* Form Styles */
+		select {float: none}
+		.inputboxes  {padding: 5px; overflow: auto; margin-bottom: 5px}
+		.inputboxes label {width: 75px; display: block; float: left; padding-top: 8px}
+			.inputbox, .inputboxes select, select {float: left; padding: 10px; border: 1px solid #ccc; -moz-box-shadow: 1px 1px 2px #ccc; -moz-border-radius: 5px; min-width: 200px}
+				.inputbox {background: #fff url(../images/bg_input_normal.png) repeat-x top}
+		
+				
+				.errorbox, .errorbox:focus {background: #fff url(../images/bg_input_error.png) repeat-x top; border: 1px solid #DE5F54!important; -moz-box-shadow: 1px 1px 2px #F6D3D0!important; -webkit-box-shadow: 1px 1px 2px #F6D3D0!important; box-shadow: 1px 1px 2px #F6D3D0!important; color: #DE5F54} 
+				.errortxt {color: #DE5F54; font-weight: 700}
+				
+				.correctbox, .correctbox:focus {background: #fff url(../images/bg_input_correct.png) repeat-x top; border: 1px solid #96BE1B!important; -moz-box-shadow: 1px 1px 2px #CEDC95!important; -webkit-box-shadow: 1px 1px 2px #CEDC95!important; box-shadow: 1px 1px 2px #CEDC95!important; color: #96BE1B}
+					.correcttxt {color: #96BE1B; font-weight: 700}
+				
+				.inputbox:focus {border: 1px solid #aaa; -moz-box-shadow: 1px 1px 2px #aaa}
+				.inputboxes img.att {float: left; padding: 10px 0 0 7px}
+				
+			.inputboxes .smaller {min-width: 100px; width: 100px}
+			input[type=checkbox], input[type=radio] {margin-top: 10px}
+			
+	/* Gallery Images */
+	
+		ul.gallerybox {overflow: auto;}
+		ul.gallerybox li {float: left; background: #e3e3e3 url(../images/bg_gallerybox.png) repeat-x bottom; padding: 5px; -moz-border-radius: 5px; text-align: center; -moz-box-shadow: 1px 1px 5px #eee; font-size: 12px; font-weight: 700; text-shadow: 1px 1px 1px #fff; margin: 0 10px 15px 0}
+		ul.gallerybox p {padding: 0}
+	
+	/* Status Bars */
+	
+		.status {padding: 8px 10px 5px 10px; border-radius: 10px; -moz-border-radius: 10px; text-shadow: 1px 1px 1px #fff; overflow: auto; margin-bottom: 20px; clear: both}
+			.status img {float: left; padding-right: 5px}
+			.status p {padding: 0; margin: 0}
+			.status p span {font-weight: 700}
+			.status .closestatus {float: right; color: #fff; text-align: center; margin-left: 10px}
+				.status .closestatus a {position: relative; color: #fff; text-decoration: none; padding: 5px; width: 10px; height: 10px; display: block; border-radius: 5px; -moz-border-radius: 5px; line-height: .6em; top: -2px; text-shadow: none}
+		
+		.warning {border: 3px solid #BF9900; background: #FEEB9C url(../images/bg_fade_yellow_med.png) repeat-x top}
+			.warning span {color: #BF9900}
+			.warning .closestatus a {background: #BF9900}
+				.warning .closestatus a:hover {background: #9B7C00}
+				
+		.success {border: 3px solid #8EA534; background: #CBDA8F url(../images/bg_fade_green_med.png) repeat-x top}
+			.success span {color: #8EA534}
+			.success .closestatus a {background: #8EA534}
+				.success .closestatus a:hover {background: #829829}
+				
+		.error {border: 3px solid #990000; background: #F5D0CD url(../images/bg_fade_red_med.png) repeat-x top}
+			.error span {color: #990000}
+			.error .closestatus a {background: #990000}
+				.error .closestatus a:hover {background: #730D0D}
+		
+		.info {border: 3px solid #2FADD7; background: #92D6ED url(../images/bg_fade_blue_med.png) repeat-x top}
+			.info span {color: #0E7A9F}
+			.info .closestatus a {background: #2FADD7}
+				.info .closestatus a:hover {background: #228DB0}
+			
+	/* Usage Bars */
+	
+		.usagebox {border: 1px solid #ccc}
+			.usagebox div {height: 25px}
+				.highbar {background: #a90000 url(../images/status_high.png) repeat-x top}
+				.midbar {background: #F49401 url(../images/status_med.png) repeat-x top}
+				.lowbar {background: #849A2A url(../images/status_low.png) repeat-x top}
+				
+				.usagetxt {padding: 3px 8px; -moz-border-radius: 5px; border-radius: 5px; text-shadow: 1px 1px 1px #fff}
+			
+			.redtxt {color: #CC0000; background: #F3DFDB}
+			.orangetxt {color: #ED9D20; background: #FCE9CC}
+			.greentxt  {color: #9DB832; background: #F3F7E1}
+	
+	/* Table Styles */
+	
+		table {border-collapse: collapse}
+			th,td {text-align: left; padding: 8px}
+			th {font-size: 14px}
+			tr.alt td{background: #F2F2F2; text-shadow: 1px 1px 1px #fff}
+		
+		.extrabottom {padding: 15px; height: 40px; repeat-x top margin-top: 10px; border-top: 1px solid #ccc}
+			.extrabottom ul {float: left}
+				.extrabottom li {float: left; padding-right: 25px}
+					.extrabottom li img {float: left; padding: 0 5px 0 0}
+			.bulkactions {float: right}
+			.bulkactions select {margin-right: 10px}
+	
+	/* Pagination Styles */
+	
+		ul.pagination {float: left; font-size: 11px; clear: both}
+			ul.pagination li {float: left; padding-right: 5px}
+				ul.pagination li a {padding: 3px 7px; border: 1px solid #ccc; text-decoration: none; border-radius: 5px; -moz-border-radius: 5px; display: block; background: url(../images/bg_fade_sml_reverse.png) repeat-x bottom}
+				ul.pagination li.page a {color: #fff; font-weight: 700}
+					ul.pagination li.page a:hover {color: #fff}
+				ul.pagination li.text a {border: none; text-decoration: underline; padding: 0 5px 0 0; background: none}
+				ul.pagination li.text {line-height: 2em}
+				
+	/* List Styles */
+	
+		.contentbox ul {margin-bottom: 20px}
+		
+		ul.standard li {background: url(../images/icons/icon_arrow.png) no-repeat left; padding: 5px 0 5px 25px}
+		ul.features li {background: url(../images/icons/icon_tick.png) no-repeat left; padding: 5px 0 5px 25px}
+			ul.features li.alt {background: url(../images/icons/icon_cross.png) no-repeat left}
+		
+	/* Misc Styling */
+		
+		.contentbox p {padding-bottom: 15px}
+	
+		.highlight {padding: 3px 8px; -moz-border-radius: 5px; border-radius: 5px; text-shadow: 1px 1px 1px #fff; color: #DFB300; background: #FFF8CF}
+		.dropcap {letter-spacing:0;  text-transform:uppercase;  color:#444;   font-family:times,serif;   font-size:3.5em;   float:left;   margin: 0.13em 0.2em 0 0;  line-height:0.7}
+	
+	/* Chart Styling */
+	
+		a.enhanced_toggleResult {display: none}
+		.visualize caption {font-size: 11px}
+			
+		/*Chart plugin styles*/
+		.visualize {border: 1px solid #888; position: relative; background: #fafafa; margin: 20px auto 10px auto}
+		.visualize canvas {position: absolute}
+		.visualize ul,.visualize li { margin: 0; padding: 0}
+		
+		/*Chart table title, key elements*/
+		.visualize .visualize-info { padding: 3px 5px; background: #fafafa; border: 1px solid #888; position: absolute; top: -20px; right: 10px; opacity: .8}
+		.visualize .visualize-title { display: block; color: #333; margin-bottom: 3px;  font-size: 1em}
+		.visualize ul.visualize-key { list-style: none}
+		.visualize ul.visualize-key li { list-style: none; float: left; margin-right: 10px; padding-left: 10px; position: relative}
+		.visualize ul.visualize-key .visualize-key-color { width: 6px; height: 6px; left: 0; position: absolute; top: 50%; margin-top: -3px}
+		.visualize ul.visualize-key .visualize-key-label { color: #000}
+		
+		/*Chart pie labels*/
+		.visualize-pie .visualize-labels { list-style-type: none}
+		.visualize-pie li { list-style-type: none}
+		.visualize-pie .visualize-label-pos, .visualize-pie .visualize-label { position: absolute;  margin: 0; padding:0}
+		.visualize-pie .visualize-label { display: block; color: #fff; font-weight: bold; font-size: 1em;}
+		.visualize-pie-outside .visualize-label { color: #000; font-weight: normal}
+		
+		/*Chart line,bar, area labels*/
+		.visualize-labels-x,.visualize-labels-y { position: absolute; left: 0; top: 0; list-style: none}
+		.visualize-labels-x li, .visualize-labels-y li { position: absolute; bottom: 0}
+		.visualize-labels-x li span.label, .visualize-labels-y li span.label { position: absolute; color: #555}
+		.visualize-labels-x li span.line, .visualize-labels-y li span.line {  position: absolute; border: 0 solid #ccc}
+		.visualize-labels-x li { height: 100%; list-style: none}
+		.visualize-labels-x li span.label { top: 100%; margin-top: 5px}
+		.visualize-labels-x li span.line { border-left-width: 1px; height: 100%; display: block}
+		.visualize-labels-x li span.line { border: 0} /*hide vertical lines on area, line, bar*/
+		.visualize-labels-y li { width: 100%; list-style: none}
+		.visualize-labels-y li span.label { right: 100%; margin-right: 5px; display: block; width: 100px; text-align: right}
+		.visualize-labels-y li span.line { border-top-width: 1px; width: 100%}
+		.visualize-bar .visualize-labels-x li span.label { width: 100%; text-align: center}
+	
+	/* Footer */
+	
+	p#footer {clear: both; padding: 30px 0 20px 10px; text-shadow: 1px 1px 1px #fff}
+	
+	
+	/* Styles for IE7 */
+	
+		#left {left:0;}
+		
+		#openCloseWrap {*margin: 150px 0 0 0}	
+		
+		

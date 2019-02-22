@@ -1,0 +1,95 @@
+body {
+background: #000000 url(./bg.gif);
+font: normal 15px arial,verdana;
+color: #FFFFFE;
+}
+
+.forms {
+font: normal 12px arial,verdana;
+padding: 3px;
+border: 1px solid #FFFFFE;
+}
+
+.header {
+background: #262626;
+width: 700px;
+min-height: 90px;
+border: 1px solid #FFFFFE;
+}
+
+.myaccount {
+width: 700px;
+background: #262626 url(./navigation.gif);
+font: normal 18px arial,verdana;
+border: 1px solid #FFFFFE;
+min-height: 24px;
+}
+
+.content {
+width: 700px;
+background-color: #262626;
+font: normal 18px arial,verdana;
+border: 1px solid #FFFFFE;
+min-height: 50px;
+}
+
+a {
+color: #0000FF;
+text-decoration: none;
+}
+
+.main {
+font: normal 12px arial,verdana;
+padding: 2px;
+margin: 2px;
+}
+ 
+ .titlehdr {
+ font: normal 22px arial, verdana;
+ color: #0000FF;
+ border-bottom: 1px solid #c00;
+ 
+ 
+ }
+ 
+.msg {
+padding: 5px;
+width: 600px;
+margin: 2px;
+color: #c00;
+border: 1px solid #c00;
+background-color: #0000FF;
+font: bold 13px  verdana;
+} 
+ 
+.error {
+font: normal 11px arial, verdana;
+color: #c00;
+border: 1px solid #c00;
+padding: 2px;
+margin: 5px;
+float: left;
+background-color: #0000FF;
+}
+ 
+.example {
+font: normal 10px arial;
+color: red;
+}
+.approved {
+font: normal 10px arial;
+color: green;
+}
+
+.loginform {
+font: 16px normal arial;
+background-color: #0000FF;
+font: normal 12px arial,verdana;
+padding: 3px;
+border: 1px solid #CAE4FF;
+}
+
+.loginform #txtbox {
+font: bold 16px arial;
+color: #f00;
+}

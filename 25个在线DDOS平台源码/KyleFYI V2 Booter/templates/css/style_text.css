@@ -1,0 +1,146 @@
+/*
+Template Name: Mustache
+Author: Rory Kranendonk
+Author URI: http://www.dreamwire.nl
+Version: 1.0
+*/
+
+html,body{
+	font : 12px/19px Arial;
+	color : #000000;
+}
+
+a , a:link, a:active, a:visited {
+	color : #e10000;
+	text-decoration : underline;
+}
+
+a:hover {
+	color : #000000;
+	text-decoration : none;
+}
+
+@font-face {
+    font-family: 'MuseoSans500';
+    src: url('http://www.dreamwire.nl/themes/Mustache/v1.2/Fixed/text/museosans-webfont.eot');
+    src: url('http://www.dreamwire.nl/themes/Mustache/v1.2/Fixed/text/museosans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.dreamwire.nl/themes/Mustache/v1.2/Fixed/text/museosans-webfont.woff') format('woff'),
+         url('http://www.dreamwire.nl/themes/Mustache/v1.2/Fixed/text/museosans-webfont.ttf') format('truetype'),
+         url('http://www.dreamwire.nl/themes/Mustache/v1.2/Fixed/text/museosans-webfont.svg#MuseoSans500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+	margin : 0;
+	padding : 10px 0 0;
+}
+
+#right ul {
+	margin : 0;
+	padding : 0;
+	list-style : none;
+}
+
+#right ul li {
+	margin : 0;
+	padding : 0 0 0 13px;
+	line-height : 24px;
+}
+
+#right ul.arrow li {
+	background : url(../gfx/list-arrow.gif) no-repeat left 9px;
+}
+
+#right ul.square li {
+	background : url(../gfx/list-square.gif) no-repeat left 9px;
+}
+
+#right ul.plus li {
+	background : url(../gfx/list-plus.gif) no-repeat left 9px;
+}
+
+#right ul.tick li {
+	background : url(../gfx/list-tick.gif) no-repeat left 8px;
+}
+
+#right blockquote {
+	display : inline-block;
+	border : 1px solid #E5E5E5;
+	border-left : 4px solid #E5E5E5;
+	padding : 10px 15px;
+	margin : 15px 0 0 0;
+	font : italic 14px/19px Times New Roman;
+	text-align : center;
+}
+
+#right pre {
+	background : #fbfbfb;
+	border : 1px solid #E5E5E5;
+	padding : 10px;
+	margin : 0;
+	white-space : pre-wrap	;
+}
+
+#right code {
+	display : block;
+	padding : 0;
+	margin : 0;
+}
+
+h1 {
+	margin : 15px 0 0;
+	padding : 0;
+	font : 22px/1.1em Arial;
+	font-weight : normal;
+	color : #e10000;
+}
+
+h2 {
+	margin : 15px 0 0;
+	padding : 0;
+	font : 17px/1.1em Arial;
+	font-weight : normal;
+	color : #e10000;
+}
+
+h3{
+	margin : 10px 0 0;
+	padding : 0;
+	font : 16px/1.1em Arial;
+	font-weight : normal;
+	color : #e10000;
+}
+
+h4{
+	margin : 15px 0 0;
+	padding : 0;
+	font : 15px/1.1em Arial;
+	font-weight : normal;
+	color : #e10000;
+}
+
+h5{
+	margin : 15px 0 0;
+	padding : 0;
+	font : 14px/1.1em Arial;
+	font-weight : normal;
+	color : #e10000;
+}
+
+h6{
+	margin : 15px 0 0;
+	padding : 0;
+	font : 12px/1.1em Arial;
+	font-weight : normal;
+	color : #e10000;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin : -3px 0 0;
+}

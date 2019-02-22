@@ -1,0 +1,12 @@
+/*
+Template Name: Mustache
+Author: Rory Kranendonk
+Author URI: http://www.dreamwire.nl
+Version: 1.0
+*/
+
+body.wysiwyg  {
+	font : 12px/18px Arial;
+	padding : 10px;
+	cursor : text;
+}

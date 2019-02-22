@@ -1,0 +1,62 @@
+/*
+Template Name: Mustache
+Author: Rory Kranendonk
+Author URI: http://www.dreamwire.nl
+Version: 1.0
+*/
+
+form.wysiwyg {
+	background : #FFFFFF;
+	border : none;
+}
+
+form.wysiwyg fieldset div.form-row {
+	display : inline-block;
+	padding : 3px 0;
+	width : 100%;
+}
+
+form.wysiwyg fieldset div.form-row-value {
+	display : block;
+	margin : 0 0 0 130px;
+}
+
+form.wysiwyg label {
+	text-align : left;
+}
+
+form.wysiwyg legend {
+	color : #0b77b7;
+	font-size : 1.2em;
+}
+
+form.wysiwyg legend span {
+	text-align : right;
+	width : 10em;
+}
+
+form.wysiwyg input{
+	display : inline-block;
+	width : 100%;
+}
+
+form.wysiwyg input.tiny{
+	width : 46px;
+}
+
+form.wysiwyg input.width, form.wysiwyg input.height {
+	width : 4em;
+}
+
+form.wysiwyg button{
+	margin : 0;
+}
+
+form.wysiwyg fieldset {
+	border : none;
+	padding : 0 20px 0 0;
+}
+
+form.wysiwyg input.default {
+	color : #bbb;
+}

@@ -1,0 +1,89 @@
+/* slides */
+#slides {width:940px;height:360px;position:relative;padding-bottom:30px; margin-left:200px; margin-top:200px;}
+#slides .slides_container, #slides .slide {width:940px;height:360px;}
+
+/* content in slide */
+.slide h2 {font-weight:normal;font-size:28px;line-height:34px;}
+.slide-image {position:absolute;left:0;top:0;z-index:-1;}
+.slide>div {text-align:right;font-size:17px;line-height:25px;margin:0;}
+.slide>div.right {text-align:left;float:right;}
+
+/* slides navigation */
+#slides .next, #slides .prev {position:absolute;top:150px;z-index:999;cursor:pointer;width:40px;height:40px;text-decoration:none;font:bold 50px/40px 'Open Sans',Arial,sans-serif;}
+#slides .prev {left:-49px;background-position:0 0;}
+#slides .next {right:-49px;text-align:right;}
+
+#slides .next:hover, #slides .prev:hover {opacity:0.7;}
+#slides .prev:active {left:-50px;}
+#slides .next:active {right:-50px;}
+
+/* slides pagination */
+.pagination {position:absolute;right:0;bottom:-20px;z-index:999;text-align:center;width:100%;list-style:none;}
+.pagination li {display:inline;}
+.pagination a {display:inline-block;width:20px;height:20px;background:url(../images/nivo-controlNav.png) 0 100% no-repeat;text-indent:-9999px;border:0;cursor:pointer;text-align:center;opacity:0.3;}
+.pagination a:hover {opacity:0.6;}
+.pagination .current a {opacity:1;background-position:0 0;}
+
+/* features box below the slider */
+.features {padding-top:20px;margin:20px 0;background:url(../images/transparent-black-005.png);background:rgba(0,0,0,0.05);}
+.features .wrapper {background:url(../images/features.png) 50% 100% no-repeat;}
+.features h3 {margin:0 0 5px 0;line-height:24px;}
+.features strong {display:inline-block;}
+.features img {margin-right:4px;vertical-align:top;}
+
+/* transitions */
+input, textarea, button, nav ul ul li a, #breadcrumbs a, #comments ul li a img {-webkit-transition:background .4s ease-out;-moz-transition:background .4s ease-out;-o-transition:background .4s ease-out;transition:background .4s ease-out;}
+.pagination a, .logo, #social a, #slides .next, #slides .prev, a.fancybox img {-webkit-transition:opacity .4s ease-out;-moz-transition:opacity .4s ease-out;-o-transition:opacity .4s ease-out;transition:opacity .4s ease-out;}
+nav a, #sec-navi a, #copyright .top {-webkit-transition:color .4s ease-out;-moz-transition:color .4s ease-out;-o-transition:color .4s ease-out;transition:color .4s ease-out;}
+#search input {-webkit-transition:width .4s ease-out;-moz-transition:width .4s ease-out;-o-transition:width .4s ease-out;transition:width .4s ease-out;}
+
+/* link buttons */
+.button {display:inline-block;padding:0 14px;text-decoration:none;font-weight:bold;line-height:30px;text-transform:uppercase;font-size:11px;background-image:url(../img/bg/fade.png);background-repeat:repeat-x;border-width:1px;border-style:solid;color:#fff;}
+.button:hover {background-image:none;}
+.button span {color:#333;color:rgba(0,0,0,0.6);padding-left:4px;margin-left:4px;border-left:1px solid #555;border-left:1px solid rgba(0,0,0,0.2);}
+
+		/*
+			Load CSS before JavaScript
+		*/
+		
+		/*
+			Slides container
+			Important:
+			Set the width of your slides container
+			Set to display none, prevents content flash
+		*/
+		.slides_container {
+			width:470px;
+			display:none;
+		}
+
+		/*
+			Each slide
+			Important:
+			Set the width of your slides
+			If height not specified height will be set by the slide content
+			Set to display block
+		*/
+		.slides_container div {
+			width:470px;
+			height:170px;
+			display:block;
+		}
+		
+		/*
+			Optional:
+			Reset list default style
+		*/
+		.pagination {
+			list-style:none;
+			margin:0;
+			padding:0;
+		}
+
+		/*
+			Optional:
+			Show the current slide in the pagination
+		*/
+		.pagination .current a {
+			color:red;
+		}

@@ -1,0 +1,14 @@
+#!/bin/bash
+clear
+echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+echo " ~~~ Python UDP Flood :   Coded By Realtalk ~~~ "
+echo " ~~~~~~~~~~~  CTRL-C To Stop Flood  ~~~~~~~~~~~ "
+echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+echo "Enter IP :"
+read ip
+echo "Enter Port :"
+read port
+echo "Attack Time :"
+read time
+python pdu.py $ip $port $time
+

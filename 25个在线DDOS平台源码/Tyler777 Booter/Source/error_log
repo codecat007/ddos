@@ -1,0 +1,582 @@
+[06-Feb-2011 12:54:22] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/redefine/public_html/vBooter/index.php on line 6
+[06-Feb-2011 12:54:43] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/redefine/public_html/vBooter/index.php on line 6
+[06-Feb-2011 12:54:47] PHP Warning:  mysql_numrows(): supplied argument is not a valid MySQL result resource in /home/redefine/public_html/vBooter/logs.php on line 15
+[06-Feb-2011 12:57:49] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/redefine/public_html/vBooter/header.php on line 108
+[06-Feb-2011 13:52:26] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/vBooter/header.php on line 78
+[06-Feb-2011 13:52:28] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/vBooter/header.php on line 78
+[06-Feb-2011 13:54:59] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/vBooter/header.php on line 78
+[06-Feb-2011 13:55:01] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/vBooter/header.php on line 78
+[06-Feb-2011 13:55:27] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/vBooter/header.php on line 78
+[06-Feb-2011 13:55:32] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/vBooter/header.php on line 78
+[06-Feb-2011 13:55:53] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/vBooter/header.php on line 78
+[06-Feb-2011 13:55:55] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/vBooter/header.php on line 78
+[06-Feb-2011 13:55:59] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/vBooter/header.php on line 78
+[06-Feb-2011 14:15:34] PHP Parse error:  syntax error, unexpected '{' in /home/redefine/public_html/vBooter/includes/functions.php on line 33
+[06-Feb-2011 14:17:07] PHP Parse error:  syntax error, unexpected '{' in /home/redefine/public_html/vBooter/includes/functions.php on line 33
+[06-Feb-2011 14:17:08] PHP Parse error:  syntax error, unexpected '{' in /home/redefine/public_html/vBooter/includes/functions.php on line 33
+[06-Feb-2011 14:17:51] PHP Parse error:  syntax error, unexpected '{' in /home/redefine/public_html/vBooter/includes/functions.php on line 33
+[06-Feb-2011 14:27:39] PHP Parse error:  syntax error, unexpected '{' in /home/redefine/public_html/vBooter/includes/functions.php on line 33
+[06-Feb-2011 15:21:37] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/redefine/public_html/vBooter/dbc.php on line 11
+[06-Feb-2011 17:41:00] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/redefine/public_html/vBooter/dbc.php on line 11
+[07-Feb-2011 05:49:21] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/redefine/public_html/vBooter/dbc.php on line 11
+[07-Feb-2011 09:15:04] PHP Parse error:  syntax error, unexpected '{' in /home/redefine/public_html/vBooter/includes/functions.php on line 33
+[07-Feb-2011 09:16:42] PHP Parse error:  syntax error, unexpected '{' in /home/redefine/public_html/vBooter/includes/functions.php on line 33
+[07-Feb-2011 12:23:00] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/vBooter/adduser.php on line 17
+[07-Feb-2011 12:23:02] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/vBooter/adduser.php on line 17
+[07-Feb-2011 12:48:28] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/vBooter/header.php on line 84
+[07-Feb-2011 12:48:47] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/vBooter/header.php on line 84
+[07-Feb-2011 12:48:49] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/vBooter/header.php on line 84
+[07-Feb-2011 12:48:52] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/vBooter/header.php on line 84
+[07-Feb-2011 12:49:16] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/vBooter/header.php on line 84
+[07-Feb-2011 12:49:33] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/vBooter/header.php on line 84
+[07-Feb-2011 12:49:35] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/vBooter/header.php on line 84
+[07-Feb-2011 13:01:05] PHP Parse error:  syntax error, unexpected '=' in /home/redefine/public_html/vBooter/header.php on line 102
+[07-Feb-2011 13:01:11] PHP Parse error:  syntax error, unexpected '=' in /home/redefine/public_html/vBooter/header.php on line 102
+[07-Feb-2011 13:01:29] PHP Parse error:  syntax error, unexpected '=' in /home/redefine/public_html/vBooter/header.php on line 100
+[07-Feb-2011 13:01:43] PHP Parse error:  syntax error, unexpected '=' in /home/redefine/public_html/vBooter/header.php on line 101
+[07-Feb-2011 13:01:46] PHP Parse error:  syntax error, unexpected '=' in /home/redefine/public_html/vBooter/header.php on line 101
+[07-Feb-2011 13:02:37] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'Tyler777'@'localhost' (using password: NO) in /home/redefine/public_html/vBooter/header.php on line 87
+[07-Feb-2011 13:03:28] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/vBooter/dbc.php:25) in /home/redefine/public_html/vBooter/dbc.php on line 69
+[07-Feb-2011 13:06:32] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'Tyler777'@'localhost' (using password: NO) in /home/redefine/public_html/vBooter/header.php on line 86
+[07-Feb-2011 13:07:16] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'Tyler777'@'localhost' (using password: NO) in /home/redefine/public_html/vBooter/header.php on line 86
+[18-Feb-2011 07:09:06] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'redefine'@'localhost' (using password: NO) in /home/redefine/public_html/dbc.php on line 11
+[18-Feb-2011 07:10:30] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:10:30] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:10:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:10:30] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:10:30] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:10:44] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:10:44] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:10:44] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:10:44] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:10:44] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:12:29] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:12:29] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:12:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:12:29] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:12:29] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:12:38] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:12:38] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:12:38] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:12:38] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:12:38] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:13:12] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:13:12] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:13:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:13:12] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:13:12] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:13:29] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:13:29] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:13:29] PHP Warning:  session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in /home/redefine/public_html/login.php on line 45
+[18-Feb-2011 07:13:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 64
+[18-Feb-2011 07:13:29] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:13:29] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:14:19] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:14:19] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:14:19] PHP Warning:  session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in /home/redefine/public_html/login.php on line 45
+[18-Feb-2011 07:14:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 64
+[18-Feb-2011 07:14:19] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:14:19] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:14:31] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:14:31] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:14:31] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:14:31] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:14:31] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:15:27] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:15:27] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:15:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:15:27] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:15:27] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:16:06] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:16:06] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:16:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:16:06] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:16:06] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:16:49] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:16:49] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:16:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:16:49] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:16:49] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:22:10] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:22:10] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:22:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:22:10] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:22:10] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:22:48] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:22:48] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:22:48] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:22:48] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:22:48] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:22:51] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:22:51] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:22:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:22:51] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:22:51] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:23:54] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:23:54] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:23:54] PHP Warning:  session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in /home/redefine/public_html/login.php on line 45
+[18-Feb-2011 07:23:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 64
+[18-Feb-2011 07:23:54] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:23:54] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:25:16] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:25:16] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:25:16] PHP Warning:  session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in /home/redefine/public_html/login.php on line 45
+[18-Feb-2011 07:25:16] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 64
+[18-Feb-2011 07:25:16] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:25:16] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:25:22] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:25:22] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:25:22] PHP Warning:  session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in /home/redefine/public_html/login.php on line 45
+[18-Feb-2011 07:25:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 64
+[18-Feb-2011 07:25:22] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:25:22] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:26:32] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:26:32] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:26:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:26:32] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:26:32] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:26:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:26:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:26:35] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:26:35] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:26:35] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:27:54] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:27:54] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:27:54] PHP Warning:  session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in /home/redefine/public_html/login.php on line 45
+[18-Feb-2011 07:27:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 64
+[18-Feb-2011 07:27:54] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:27:54] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:30:05] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:30:05] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:30:05] PHP Warning:  session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in /home/redefine/public_html/login.php on line 45
+[18-Feb-2011 07:30:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 64
+[18-Feb-2011 07:30:05] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:30:05] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:30:09] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:30:09] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:30:09] PHP Warning:  session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in /home/redefine/public_html/login.php on line 45
+[18-Feb-2011 07:30:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 64
+[18-Feb-2011 07:30:09] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:30:09] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:30:16] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:30:16] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:30:16] PHP Warning:  session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in /home/redefine/public_html/login.php on line 45
+[18-Feb-2011 07:30:16] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 60
+[18-Feb-2011 07:30:16] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 61
+[18-Feb-2011 07:30:16] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 62
+[18-Feb-2011 07:30:16] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 64
+[18-Feb-2011 07:30:16] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:30:16] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:30:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:30:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:30:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:30:20] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:30:20] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:30:28] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:30:28] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:30:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:30:28] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:30:28] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:30:44] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:30:44] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 07:30:44] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 07:30:44] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:30:44] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:30:56] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:30:56] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:30:56] PHP Warning:  session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in /home/redefine/public_html/login.php on line 45
+[18-Feb-2011 07:30:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 64
+[18-Feb-2011 07:30:56] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:30:56] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 07:31:27] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:31:27] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 44
+[18-Feb-2011 07:31:27] PHP Warning:  session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in /home/redefine/public_html/login.php on line 45
+[18-Feb-2011 07:31:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/login.php:44) in /home/redefine/public_html/login.php on line 64
+[18-Feb-2011 07:31:27] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 07:31:27] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 08:59:15] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 08:59:15] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 08:59:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 08:59:15] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 08:59:15] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 08:59:18] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 08:59:18] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 25
+[18-Feb-2011 08:59:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 65
+[18-Feb-2011 08:59:18] PHP Warning:  Unknown: open(/tmp/sess_19b60b51c4265cd999cb49f6a525d707, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[18-Feb-2011 08:59:18] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 95 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 96 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 97 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 98 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 99 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 100 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 101 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 102 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 103 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 104 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 105 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 106 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 107 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 108 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 109 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 110 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 111 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 112 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 113 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 114 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 115 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 116 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 117 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 118 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 119 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 120 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 121 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 122 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 123 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 124 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 125 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 126 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 127 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 128 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 129 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 130 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 131 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 132 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 133 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 134 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 135 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 136 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 137 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 138 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 139 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 140 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 141 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 142 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 143 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 144 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 145 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 146 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 147 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 148 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 149 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 150 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 151 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 152 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 153 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 154 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 155 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 156 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 157 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 158 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 159 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 160 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 161 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 162 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 163 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 164 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 165 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 166 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 167 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 168 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 169 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 170 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 171 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 172 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 173 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 174 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 175 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 176 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 177 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 178 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 179 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 180 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 181 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 182 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 183 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 184 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 185 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 186 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 187 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 188 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 189 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 190 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 191 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 192 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 193 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 194 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 195 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 196 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 197 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 198 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 199 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 200 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 201 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 202 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 203 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 204 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 205 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 206 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 207 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 208 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 209 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 210 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 211 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 212 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 213 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 214 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 215 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 216 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 217 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 218 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 219 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 220 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 221 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 222 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 223 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 224 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 225 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 226 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 227 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 228 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 229 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 230 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 231 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 232 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 233 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 234 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 235 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 236 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 237 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 238 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 239 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 240 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 241 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 242 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 243 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 244 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 245 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 246 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 247 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 248 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 249 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 250 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 251 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 252 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 253 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 254 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 255 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 256 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 257 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[18-Feb-2011 20:10:25] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 258 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:02:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 38 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:02:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 39 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:02:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 40 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:02:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 41 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:02:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 42 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:02:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 43 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:02:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 44 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:02:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 45 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:02:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 46 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:02:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 47 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:02:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 48 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:02:49] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 49 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:03:03] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 37 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:03:03] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 38 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:03:03] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 39 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:03:03] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 40 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:03:03] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 41 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:03:03] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 42 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:03:03] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 43 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:03:03] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 44 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:03:03] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 45 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:03:03] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 46 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:03:03] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 47 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:03:03] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 48 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 11:03:03] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 49 on MySQL result index 14 in /home/redefine/public_html/manageshells.php on line 58
+[21-Feb-2011 12:22:25] PHP Warning:  require(myaccount.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/redefine/public_html/massadd.php on line 2
+[21-Feb-2011 12:22:25] PHP Warning:  require(myaccount.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/redefine/public_html/massadd.php on line 2
+[21-Feb-2011 12:22:25] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'myaccount.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/redefine/public_html/massadd.php on line 2
+[21-Feb-2011 12:23:48] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 69
+[21-Feb-2011 12:25:15] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 69
+[21-Feb-2011 12:25:45] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:25) in /home/redefine/public_html/dbc.php on line 69
+[21-Feb-2011 12:50:21] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/manageshells.php on line 13
+[21-Feb-2011 12:51:52] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/manageshells.php on line 2
+[21-Feb-2011 12:52:10] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/manageshells.php on line 2
+[21-Feb-2011 12:52:29] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/manageshells.php on line 23
+[21-Feb-2011 12:53:26] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/manageshells.php on line 23
+[21-Feb-2011 12:53:44] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/manageshells.php on line 20
+[21-Feb-2011 12:54:14] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/manageshells.php on line 20
+[21-Feb-2011 12:54:46] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/manageshells.php on line 14
+[21-Feb-2011 12:58:27] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/manageshells.php on line 17
+[21-Feb-2011 12:58:29] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/manageshells.php on line 17
+[21-Feb-2011 13:16:19] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/logs.php on line 102
+[21-Feb-2011 13:23:57] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/logs.php on line 52
+[21-Feb-2011 13:32:38] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/logs.php on line 51
+[21-Feb-2011 15:16:01] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/adduser.php on line 17
+[21-Feb-2011 15:31:30] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/admin.php on line 378
+[21-Feb-2011 15:32:23] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/admin.php on line 378
+[22-Feb-2011 01:47:47] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /home/redefine/public_html/hub.php on line 115
+[22-Feb-2011 01:48:42] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /home/redefine/public_html/hub.php on line 115
+[22-Feb-2011 02:54:28] PHP Parse error:  syntax error, unexpected T_LOGICAL_OR in /home/redefine/public_html/includes/functions.php on line 34
+[22-Feb-2011 02:56:41] PHP Parse error:  syntax error, unexpected T_LOGICAL_OR in /home/redefine/public_html/includes/functions.php on line 33
+[22-Feb-2011 03:00:24] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/includes/functions.php on line 145
+[22-Feb-2011 03:02:09] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/redefine/public_html/includes/functions.php on line 34
+[22-Feb-2011 03:02:39] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/redefine/public_html/includes/functions.php on line 42
+[22-Feb-2011 03:03:06] PHP Parse error:  syntax error, unexpected '{' in /home/redefine/public_html/includes/functions.php on line 37
+[22-Feb-2011 03:03:24] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/redefine/public_html/includes/functions.php on line 40
+[22-Feb-2011 03:08:31] PHP Parse error:  syntax error, unexpected T_ELSE in /home/redefine/public_html/includes/functions.php on line 35
+[22-Feb-2011 03:10:14] PHP Parse error:  syntax error, unexpected '{' in /home/redefine/public_html/includes/functions.php on line 32
+[22-Feb-2011 03:25:25] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/redefine/public_html/includes/functions.php on line 33
+[22-Feb-2011 03:25:59] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/redefine/public_html/includes/functions.php on line 33
+[22-Feb-2011 03:35:35] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/redefine/public_html/header.php on line 80
+[22-Feb-2011 03:35:57] PHP Parse error:  syntax error, unexpected T_IF in /home/redefine/public_html/header.php on line 80
+[22-Feb-2011 03:36:39] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/redefine/public_html/header.php on line 80
+[22-Feb-2011 03:36:51] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/redefine/public_html/header.php on line 80
+[22-Feb-2011 03:37:27] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/redefine/public_html/header.php on line 81
+[22-Feb-2011 03:50:50] PHP Parse error:  syntax error, unexpected T_IF in /home/redefine/public_html/header.php on line 19
+[22-Feb-2011 03:51:27] PHP Parse error:  syntax error, unexpected T_IF in /home/redefine/public_html/header.php on line 19
+[22-Feb-2011 03:52:10] PHP Parse error:  syntax error, unexpected T_IF in /home/redefine/public_html/header.php on line 82
+[22-Feb-2011 03:55:02] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/redefine/public_html/header.php on line 82
+[22-Feb-2011 04:22:52] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/includes/functions.php on line 34
+[22-Feb-2011 07:10:13] PHP Fatal error:  Call to undefined function imagecreate() in /home/redefine/public_html/shells.php on line 13
+[22-Feb-2011 07:10:14] PHP Fatal error:  Call to undefined function imagecreate() in /home/redefine/public_html/shells.php on line 13
+[22-Feb-2011 07:10:14] PHP Fatal error:  Call to undefined function imagecreate() in /home/redefine/public_html/shells.php on line 13
+[07-Mar-2011 06:13:28] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'redefine'@'localhost' (using password: NO) in /home/redefine/public_html/boot.php on line 153
+[07-Mar-2011 06:13:28] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/redefine/public_html/boot.php on line 153
+[07-Mar-2011 18:59:32] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/redefine/public_html/autoboot.php on line 6
+[14-Mar-2011 16:48:41] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to logicalgamers.com:80 (Connection timed out) in /home/redefine/public_html/isup.php on line 25
+[14-Mar-2011 16:48:47] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to logicalgamers.com:80 (Connection timed out) in /home/redefine/public_html/isup.php on line 25
+[14-Mar-2011 16:49:28] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to logicalgamers.com:80 (Connection timed out) in /home/redefine/public_html/isup.php on line 25
+[15-Mar-2011 11:25:55] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/addshell.php on line 82
+[15-Mar-2011 11:26:16] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/addshell.php on line 83
+[15-Mar-2011 11:27:10] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/addshell.php on line 82
+[15-Mar-2011 11:27:34] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/addshell.php on line 4
+[15-Mar-2011 11:27:49] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/addshell.php on line 4
+[15-Mar-2011 11:27:57] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/addshell.php on line 4
+[20-Mar-2011 15:42:08] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 174
+[20-Mar-2011 15:43:06] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 173
+[20-Mar-2011 15:43:37] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 173
+[20-Mar-2011 15:43:39] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 173
+[20-Mar-2011 15:44:11] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 171
+[20-Mar-2011 15:44:13] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 171
+[20-Mar-2011 15:44:37] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 167
+[20-Mar-2011 15:44:57] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 166
+[20-Mar-2011 16:10:35] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/navigation.php on line 43
+[20-Mar-2011 16:12:04] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:3) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:12:55] PHP Fatal error:  Call to undefined function page_protect() in /home/redefine/public_html/navigation.php on line 4
+[20-Mar-2011 16:13:26] PHP Fatal error:  Call to undefined function page_protect() in /home/redefine/public_html/navigation.php on line 4
+[20-Mar-2011 16:14:02] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:3) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:14:39] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:3) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:14:44] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[20-Mar-2011 16:15:09] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:3) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:15:09] PHP Fatal error:  Cannot redeclare getbootertitle() (previously declared in /home/redefine/public_html/includes/functions.php:14) in /home/redefine/public_html/includes/functions.php on line 21
+[20-Mar-2011 16:15:21] PHP Fatal error:  Call to undefined function page_protect() in /home/redefine/public_html/navigation.php on line 4
+[20-Mar-2011 16:15:44] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 22
+[20-Mar-2011 16:15:51] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:13) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:16:50] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 135
+[20-Mar-2011 16:16:54] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 135
+[20-Mar-2011 16:17:23] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 133
+[20-Mar-2011 16:18:08] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:13) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:18:22] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 22
+[20-Mar-2011 16:19:18] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 22
+[20-Mar-2011 16:19:22] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 22
+[20-Mar-2011 16:19:28] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:13) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:19:47] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/header.php on line 76
+[20-Mar-2011 16:20:16] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:13) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:20:40] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 22
+[20-Mar-2011 16:21:17] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:12) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:21:26] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:12) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:21:28] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:12) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:21:30] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:12) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:21:34] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:12) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:21:41] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:12) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:22:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:13) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:22:27] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 22
+[20-Mar-2011 16:22:31] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:13) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:22:57] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:13) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:23:03] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 22
+[20-Mar-2011 16:23:25] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/navigation.php on line 48
+[20-Mar-2011 16:23:29] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/navigation.php on line 48
+[20-Mar-2011 16:24:31] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/navigation.php on line 58
+[20-Mar-2011 16:24:34] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/navigation.php on line 58
+[20-Mar-2011 16:24:36] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/navigation.php on line 58
+[20-Mar-2011 16:25:08] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/navigation.php on line 58
+[20-Mar-2011 16:25:38] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/navigation.php on line 52
+[20-Mar-2011 16:26:05] PHP Parse error:  syntax error, unexpected '}' in /home/redefine/public_html/navigation.php on line 47
+[20-Mar-2011 16:26:57] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 22
+[20-Mar-2011 16:28:14] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 22
+[20-Mar-2011 16:29:26] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/navigation.php on line 57
+[20-Mar-2011 16:29:32] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/navigation.php on line 57
+[20-Mar-2011 16:29:57] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/navigation.php on line 57
+[20-Mar-2011 16:30:31] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/navigation.php on line 57
+[20-Mar-2011 16:30:33] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/navigation.php on line 57
+[20-Mar-2011 16:31:06] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 23
+[20-Mar-2011 16:31:23] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 135
+[20-Mar-2011 16:32:28] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:14) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:33:02] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:14) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:33:11] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/navigation.php:14) in /home/redefine/public_html/dbc.php on line 26
+[20-Mar-2011 16:34:21] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 131
+[20-Mar-2011 16:34:31] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 131
+[20-Mar-2011 16:34:55] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/navigation.php on line 57
+[20-Mar-2011 16:35:48] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/navigation.php on line 57
+[20-Mar-2011 16:38:07] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 23
+[20-Mar-2011 16:38:55] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 23
+[20-Mar-2011 16:43:47] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 24
+[20-Mar-2011 16:43:50] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 24
+[20-Mar-2011 19:54:51] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 23
+[20-Mar-2011 22:33:24] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[20-Mar-2011 22:54:52] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/hub.php on line 14
+[20-Mar-2011 22:55:46] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/hub.php on line 14
+[20-Mar-2011 22:57:39] PHP Parse error:  syntax error, unexpected T_STRING in /home/redefine/public_html/hub.php on line 14
+[20-Mar-2011 22:57:41] PHP Parse error:  syntax error, unexpected T_STRING in /home/redefine/public_html/hub.php on line 14
+[20-Mar-2011 23:15:29] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[20-Mar-2011 23:18:12] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[20-Mar-2011 23:18:14] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[20-Mar-2011 23:18:16] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[20-Mar-2011 23:18:17] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[20-Mar-2011 23:18:18] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[20-Mar-2011 23:18:20] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[20-Mar-2011 23:19:49] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[20-Mar-2011 23:21:35] PHP Parse error:  syntax error, unexpected T_STRING in /home/redefine/public_html/hub.php on line 39
+[20-Mar-2011 23:22:07] PHP Parse error:  syntax error, unexpected T_STRING in /home/redefine/public_html/hub.php on line 15
+[20-Mar-2011 23:22:55] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/includes/functions.php:18) in /home/redefine/public_html/hub.php on line 15
+[20-Mar-2011 23:22:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/includes/functions.php:18) in /home/redefine/public_html/hub.php on line 15
+[20-Mar-2011 23:25:53] PHP Parse error:  syntax error, unexpected T_STRING in /home/redefine/public_html/hub.php on line 15
+[20-Mar-2011 23:26:50] PHP Parse error:  syntax error, unexpected T_SR in /home/redefine/public_html/hub.php on line 15
+[20-Mar-2011 23:26:52] PHP Parse error:  syntax error, unexpected T_SR in /home/redefine/public_html/hub.php on line 15
+[20-Mar-2011 23:34:45] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 150
+[20-Mar-2011 23:39:29] PHP Fatal error:  Call to undefined function dateconvert() in /home/redefine/public_html/header.php on line 33
+[20-Mar-2011 23:39:33] PHP Fatal error:  Call to undefined function dateconvert() in /home/redefine/public_html/header.php on line 33
+[20-Mar-2011 23:39:35] PHP Fatal error:  Call to undefined function dateconvert() in /home/redefine/public_html/header.php on line 33
+[20-Mar-2011 23:41:54] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 142
+[20-Mar-2011 23:43:17] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 142
+[20-Mar-2011 23:43:22] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/header.php on line 142
+[20-Mar-2011 23:45:25] PHP Fatal error:  Call to undefined function dateconvert() in /home/redefine/public_html/header.php on line 33
+[21-Mar-2011 01:32:19] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 23
+[22-Mar-2011 04:19:15] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 23
+[22-Mar-2011 16:09:37] PHP Fatal error:  Call to undefined function checkMod() in /home/redefine/public_html/navigation.php on line 23
+[22-Mar-2011 17:15:36] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/footer.php on line 18
+[22-Mar-2011 17:15:36] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/footer.php on line 18
+[22-Mar-2011 17:15:42] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/footer.php on line 18
+[22-Mar-2011 17:17:51] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/footer.php on line 18
+[22-Mar-2011 17:18:19] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/footer.php on line 18
+[22-Mar-2011 17:28:02] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[22-Mar-2011 17:28:06] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/footer.php on line 18
+[22-Mar-2011 17:28:10] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[22-Mar-2011 17:28:51] PHP Parse error:  syntax error, unexpected '&' in /home/redefine/public_html/footer.php on line 19
+[22-Mar-2011 17:29:19] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[22-Mar-2011 17:29:32] PHP Fatal error:  Cannot redeclare page_protect() (previously declared in /home/redefine/public_html/dbc.php:26) in /home/redefine/public_html/dbc.php on line 70
+[22-Mar-2011 17:35:45] PHP Parse error:  syntax error, unexpected ';' in /home/redefine/public_html/footer.php on line 20
+[22-Mar-2011 17:39:47] PHP Parse error:  syntax error, unexpected ';' in /home/redefine/public_html/footer.php on line 20
+[22-Mar-2011 17:39:49] PHP Parse error:  syntax error, unexpected ';' in /home/redefine/public_html/footer.php on line 20
+[22-Mar-2011 20:31:18] PHP Parse error:  syntax error, unexpected T_STRING in /home/redefine/public_html/footer.php on line 12
+[22-Mar-2011 20:35:05] PHP Parse error:  syntax error, unexpected '<' in /home/redefine/public_html/logout.php on line 3
+[22-Mar-2011 20:42:34] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'redefine'@'localhost' (using password: NO) in /home/redefine/public_html/logout.php on line 2
+[22-Mar-2011 20:42:34] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/redefine/public_html/logout.php on line 2
+[22-Mar-2011 20:42:34] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/redefine/public_html/logout.php:2) in /home/redefine/public_html/dbc.php on line 196
+[22-Mar-2011 20:42:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/logout.php:2) in /home/redefine/public_html/dbc.php on line 209
+[22-Mar-2011 20:42:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/logout.php:2) in /home/redefine/public_html/dbc.php on line 210
+[22-Mar-2011 20:42:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/logout.php:2) in /home/redefine/public_html/dbc.php on line 211
+[22-Mar-2011 20:42:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/redefine/public_html/logout.php:2) in /home/redefine/public_html/dbc.php on line 213
+[22-Mar-2011 20:46:32] PHP Parse error:  syntax error, unexpected $end in /home/redefine/public_html/logout.php on line 5
+[23-Mar-2011 19:26:28] PHP Parse error:  syntax error, unexpected T_STRING in /home/redefine/public_html/includes/functions.php on line 44

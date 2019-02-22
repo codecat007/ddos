@@ -1,0 +1,6 @@
+[22-Aug-2011 23:05:19] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bootingu/public_html/core.php on line 24
+[22-Aug-2011 23:05:19] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bootingu/public_html/core.php on line 32
+[22-Aug-2011 23:05:19] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/bootingu/public_html/core.php on line 77
+[22-Aug-2011 23:05:29] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bootingu/public_html/core.php on line 24
+[22-Aug-2011 23:05:29] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/bootingu/public_html/core.php on line 32
+[22-Aug-2011 23:05:29] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/bootingu/public_html/core.php on line 77

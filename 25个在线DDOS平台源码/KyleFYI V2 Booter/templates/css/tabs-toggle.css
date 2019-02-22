@@ -1,0 +1,75 @@
+/*
+Template Name: Mustache
+Author: Rory Kranendonk
+Author URI: http://www.dreamwire.nl
+Version: 1.0
+*/
+
+#right .box .content .tabmenu {
+	display : block;
+	background : url(../gfx/tabs.gif) repeat-x left top;
+	margin : 0;
+	height : 30px;
+}
+
+#right .box .content .tabmenu ul {
+	display : inline-block;
+	margin : 0;
+	padding : 0;
+	list-style : none;
+	width : 100%;
+}
+
+#right .box .content .tabmenu ul li {
+	float : left;
+	background : none;
+	border-right : 1px solid #e6e6e6;
+	padding : 0;
+	font : 12px/1.5em Arial;
+}
+
+#right .box .content .tabmenu ul li a {
+	float : left;
+	padding : 6px 10px 5px;
+	font : 12px/1.6em Arial;
+	color : #999999;
+	text-decoration : none;
+	outline : none;
+}
+
+#right .box .content .tabmenu ul li a:hover, #right .box .content .tabmenu ul li a:active, #right .box .content .tabmenu ul li.ui-tabs-selected a {
+	background : url(../gfx/tabs.gif) repeat-x left -30px;
+	color : #1c1c1c;
+	text-decoration : none;
+}
+
+#right .box .content .tab {
+	display : block;
+	background : url(../gfx/tabs.gif) repeat-x left -60px #FFFFFF;
+	padding : 20px 17px 20px 18px;
+}
+
+#right .box .content .tab.nopadding {
+	padding : 0;
+}
+
+#right .box .content .ui-tabs-hide {
+	display : none;
+}
+
+#wrapper #container #right .section .box .togglemenu ul li {
+	line-height : 18px;
+}
+
+#wrapper #container #right .section .box .togglemenu ul li.title {
+	outline : none;
+	cursor : pointer;
+	border-top : 1px solid #e6e6e6;
+	font : 12px/1.1em Arial;
+	color: #737272;
+	text-transform : none;
+}
+
+#wrapper #container #right .section .box .togglemenu ul li.title.ui-state-active {
+	color: #000000;
+}

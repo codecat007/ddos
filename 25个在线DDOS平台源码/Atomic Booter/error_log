@@ -1,0 +1,6 @@
+[13-Jun-2012 23:06:43 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/echostre/public_html/core.php on line 24
+[13-Jun-2012 23:06:43 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/echostre/public_html/core.php on line 77
+[18-Jun-2012 20:48:16 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/volcanic/public_html/source/core.php on line 24
+[18-Jun-2012 20:48:16 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/volcanic/public_html/source/core.php on line 77
+[18-Jun-2012 20:50:12 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/volcanic/public_html/source/core.php on line 24
+[18-Jun-2012 20:50:12 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/volcanic/public_html/source/core.php on line 77

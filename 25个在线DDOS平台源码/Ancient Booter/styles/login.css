@@ -1,0 +1,18 @@
+	body {background: #e0e0e0; margin: 0; padding: 0; font-size: 13px; font-family: Arial, Helvetica, sans-serif; color: #666}
+	
+		#logincontainer {width: 380px; margin: 70px auto 0 auto; text-align: center; text-shadow: 1px 1px 1px #fff}
+			h1 {letter-spacing: -1px}
+				h1 span {color: #999}
+			a {text-decoration: none; color: #666}
+				a:hover {color: #444}
+			input {border: none; background: #fff; font-family: Arial, Helvetica, sans-serif}
+			p, form {padding: 0; margin: 0}
+			
+			#loginbox {width: 298px; margin: 0 auto; padding: 30px; border: 1px solid #eee; -moz-box-shadow: 1px 1px 8px #999; box-shadow: 1px 1px 8px #999; -webkit-box-shadow: 1px 1px 8px #999; -moz-border-radius: 10px; border-radius: 10px; -webkit-border-radius: 10px; font-weight: 700; background: #c3c3c3 url(../images/bg_loginbox.png) repeat-x top}
+			
+				.inputcontainer {width: 278px; border: 1px solid #fff; padding: 10px; background: #fff url(../images/bg_login_input.png) repeat-x bottom; -moz-border-radius: 5px; border-radius: 5px; -webkit-border-radius: 5px; overflow: auto; margin-bottom: 8px; -moz-box-shadow: 1px 1px 8px #aaa; box-shadow: 1px 1px 8px #aaa; -webkit-box-shadow: 1px 1px 8px #aaa}
+					.inputcontainer input {margin-left: 5px; width: 145px}
+					.inputcontainer img, .inputcontainer label, .inputcontainer input {float: left; margin-right: 5px}
+					
+				.loginsubmit {width: 298px; border: 1px solid #999; background: #a8a8a8 url(../images/bg_login_btn.png) repeat-x top; font-size: 20px; padding: 8px 0; -moz-border-radius: 5px; border-radius: 5px; -webkit-border-radius: 5px; text-shadow: 1px 1px 1px #ccc; font-weight: 700; -moz-box-shadow: 1px 1px 8px #999; box-shadow: 1px 1px 8px #999; -webkit-box-shadow: 1px 1px 8px #999; margin-bottom: 15px}
+					.loginsubmit:hover {cursor: pointer; background: #999}

@@ -1,0 +1,114 @@
+body {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+	margin: 0px;
+	padding: 20px 10px 0px;
+	background-image:url('../images/background.jpg');
+}
+.textfield {
+	font-size: 11px;
+	color: black;
+	background: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	padding-left: 1px;
+}
+h1 {
+	color: blue;
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
+	font: bold 18px Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dashed #E6E8ED;
+}
+a {
+	color: blue;
+	font-size: 11px;
+}
+a:hover {
+	color: white;
+}
+.err {
+	color: red;
+}
+th {
+	font-weight: bold;
+	text-align: left;
+}
+
+
+
+.cssShoutBox {
+  background-color: #FFFFFF;
+  border: 2px inset #EEEEEE;
+}
+.cssShoutForm {
+  font-family: Arial, Helvetica;
+  font-size: 11px;
+  background-color: #E0F0FF;
+  border: 2px inset #EEEEEE;
+}
+.cssShoutButton {
+  font-family: Arial, Helvetica;
+  font-size: 11px;
+}
+.cssShoutText {
+  font-family: Arial, Helvetica;
+  font-size: 11px;
+  color: #000000;
+}
+.cssShoutTextAdmin {
+  font-family: Arial, Helvetica;
+  font-size: 11px;
+	color: #D00000;
+}
+.cssShoutTime {
+  font-family: Arial, Helvetica;
+  font-size: 9px;
+  color: #A0A0A0;
+  text-align: right;
+}
+.cssShoutRaised {
+  background-color: #FFFFC0;
+  border: 1px outset #EEEEEE;
+  width: 14px;
+  height: 14px;
+  padding: 2px;
+  text-align: center;
+}
+.cssShoutPressed {
+  background-color: #FFFFC0;
+  border: 1px inset #EEEEEE;
+  width: 14px;
+  height: 14px;
+  padding-left: 3px;
+  padding-top: 3px;
+  padding-right: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+}
+.cssShoutError {
+  font-family: Arial, Helvetica;
+  font-size: 11px;
+  padding: 4px;
+  text-align: center;
+  color: #D00000;
+  background-color: #FFF0E0;
+  border: 1px solid #C0B0A0;
+}
+.cssCode {
+  font-family: Courier New, Courier, Monospace;
+  font-size: 12px;
+  color: #00A000;
+  background-color: #E0FFE0;
+  border: 1px solid #C0E0C0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 4px;
+}
+.cssQuote {
+  color: #808080;
+  background-color: #F0F0F0;
+  border: 1px solid #C0C0C0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 4px;
+}

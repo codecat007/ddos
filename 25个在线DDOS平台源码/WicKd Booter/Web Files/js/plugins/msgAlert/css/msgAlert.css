@@ -1,0 +1,188 @@
+.msgAlert
+{
+	width: 400px;
+	position: fixed;
+	left: 50%;
+	top: 50px;
+	margin-left: -200px;
+	z-index: 100;
+	
+	border: 3px solid rgba(0,0,0,0);
+	
+	border: 3px solid #bbb\0/;
+	*border: 3px solid #bbb;
+	
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+		
+	-webkit-box-shadow:0 0 12px rgba(0,0,0,0.4);
+	-moz-box-shadow:0 0 12px rgba(0,0,0,0.4);
+	box-shadow:0 0 12px rgba(0,0,0,0.4);
+	
+	
+}
+
+	.msgAlert_header
+	{		
+		background: #BBB url(../images/msgAlert_header.png) repeat-x 0 0;
+		height: 39px;
+		line-height: 39px;
+		margin: 0 0 1.5em;
+		border: 1px solid #999;
+		position: relative;
+		
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px;
+		border-radius:4px;
+	}
+	
+		.msgAlert_header h4
+		{
+			font-size: 14px;
+			line-height: 39px;
+			color: #FFF;
+			text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+			position: relative;
+			left: 10px;	
+		}
+	
+		.msgAlert_header .msgAlert_close
+		{
+			background: url(../images/msgAlert_close.png) no-repeat 0 0;
+			width: 20px;
+			height: 20px;
+			line-height: 800px;
+			display: block;
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			overflow: hidden;
+		}
+	
+			.msgAlert_header .msgAlert_close:hover { background-position: 0 -20px; }
+
+	.msgAlert_popup 
+	{
+		color: #444;
+		display:block;
+		padding: 10px 10px 20px;
+		background: #fff;-webkit-border-top-left-radius: 4px;
+		
+		-webkit-border-top-right-radius: 4px;
+		-moz-border-radius-topleft: 4px;
+		-moz-border-radius-topright: 4px;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+	}
+	
+		.msgAlert_popup p:last-child { margin-bottom: 0; }
+
+	.msgAlert_footer
+	{
+		background: #EEE;
+		width: auto;
+		text-align: right;
+		padding: 10px 10px;
+		
+		-webkit-border-bottom-right-radius: 4px;
+		-webkit-border-bottom-left-radius: 4px;
+		-moz-border-radius-bottomright: 4px;
+		-moz-border-radius-bottomleft: 4px;
+		border-bottom-right-radius: 4px;
+		border-bottom-left-radius: 4px;
+	}
+	
+		.msgAlert_footer button { margin: 0 .35em; }
+
+
+	.msgAlert_overlay 
+	{
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		height:100%;
+		width:100%;
+		background-color: #000;
+		z-index: 99;
+		filter: alpha(opacity=15);
+		filter: progid:DXImageTransform.Microsoft.Alpha(opacity=15);
+		-moz-opacity: 0.15;
+		opacity:0.15;
+	}
+	
+	.msgAlert_content { color: #555; min-height: 50px; margin-top: .75em; }
+	
+	.msgAlert_content h3 { margin-bottom: 1em; }
+	
+	.msgAlert_content ul
+	{
+		list-style-type: square;
+		padding: 0;
+		margin: 0 0 0 24px;
+	}
+	
+	
+.warning .msgAlert_content
+, .info .msgAlert_content
+, .success .msgAlert_content
+, .error .msgAlert_content
+{
+	background-repeat: no-repeat;
+	background-position: 16px 2px;
+	padding-left: 85px;
+}
+
+.info .msgAlert_content { background-image: url(../images/msgAlert_info.png); }
+.success .msgAlert_content { background-image: url(../images/msgAlert_success.png); }
+.warning .msgAlert_content { background-image: url(../images/msgAlert_warning.png); }
+.error .msgAlert_content { background-image: url(../images/msgAlert_error.png); }
+
+.msgAlert.success .msgAlert_header { background-color: #7B9534; border-color: #627036; }
+.msgAlert.warning .msgAlert_header { background-color: #E6BA01; border-color: #AC9207; }
+.msgAlert.error .msgAlert_header { background-color: #AF4434; border-color: #782E25; }
+.msgAlert.info .msgAlert_header { background-color: #437ECC; border-color: #224F91; }
+
+.msgAlert_footer.left { text-align: left; }
+.msgAlert_footer.middle { text-align: center; }
+.msgAlert_footer.right { text-align: right; }
+
+.msgAlert_footer button
+{
+	background-image: url(../images/msgAlert_button_bg.png); 
+	background-color: #DDD; 
+	background-repeat: repeat-x;
+	color: #666;
+	font-weight: bold;
+	display: inline-block;	
+	text-decoration: none;
+	border-color: #BBB; 
+	border-width: 1px;
+	border-style: solid;
+	padding: 0 15px 4px;
+	*padding: 0 5px 4px;
+	margin: 0 3px;
+
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	
+	cursor: pointer;
+	position: relative;
+}
+
+	.msgAlert_footer button:hover { background-position: 0 -100px; }
+	
+	/* Active/Click state */
+	.msgAlert_footer button:active { top: 1px; }
+
+
+/* Sizes */
+.msgAlert_footer button { background-position: 0 0; font-size: 10px; height: 26px; line-height: 23px; }
+
+
+

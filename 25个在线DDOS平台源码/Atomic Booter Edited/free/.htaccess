@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^free\.echostresser\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.free\.echostresser\.in$
+RewriteRule ^/?$ "http\:\/\/www\.echostresser\.in\/Booter" [R=301,L]
+

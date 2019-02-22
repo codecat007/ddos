@@ -1,0 +1,1755 @@
+/*
+ * ************************************************************* *
+ * Name        : Mini Framework                                  *
+ * Description : Custom CSS framework.                           *
+ * Version     : Version 1.3.3                                   *
+ * Author      : Mark Dijkstra                                   *
+ * Author URI  : www.markdijkstra.eu                             *
+ * Updated     : 06/09/2012                                      *
+ * Copyright   : (c) 2012 Mark Dijkstra                          *
+ * ************************************************************* *
+ 
+   Table of Contents
+   ---------------------------------------------------------------
+	
+   1. ELEMENTS 
+
+	  - Reset
+	  - Links                                           
+	  - List
+	  - Typografy
+	  - Tables
+	  - Images
+	  - Styling
+	  - Animations
+	  - Blockquote
+	  - Transformations
+	  - Forms
+	  - Misc
+	  - Position                                                  
+	  - Clearfix
+
+   2. PRE MADE PARTS
+   
+	  - Dialogs 
+	  - Tags
+	  - Buttons
+	  - Clearfix
+   
+   3. GRID
+   
+      - Columns
+	  - Spacers
+   
+   4. MEDIA QUERIES
+   
+	  - Print styles
+	  - Smartphones (portrait and landscape)
+	  - Smartphones (landscape)
+	  - Smartphones (portrait)
+	  - iPads 1 & 2 (portrait and landscape)	 
+	  - iPads 1 & 2 (landscape)
+	  - iPads 1 & 2 (portrait)	
+	  - iPads 3 (portrait and landscape)
+	  - iPads 3 (landscape)
+	  - iPads 3 (portrait)
+	  - RIM playbook (portrait and landscape)
+	  - RIM playbook (landscape)
+	  - RIM playbook (portrait)
+	  - Desktops and laptops
+	  - Large screens
+	  - iPhone 4
+ 
+ * ===============================================================
+ * 1. ELEMENTS                                                      
+ * ===============================================================
+ */
+	 
+	/* Reset - HTML 4 & HTML 5 reset ----------- */
+	html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, 
+	cite, code,del, dfn, em, img, ins, kbd, a, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul,
+	li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, 
+	details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video{
+		margin         : 0;
+		padding        : 0;
+		border         : 0;
+		font-size      : 100%;
+		vertical-align : baseline;
+		background     : transparent;
+	}
+	article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{  
+		display : block;  
+	} 
+	audio, canvas, video{ 
+		display  : inline-block; 
+		*display : inline; 
+		*zoom    : 1; 
+	}
+	audio:not([controls]),[hidden]{ 
+		display : none; 
+	}
+	/* HTML/BODY ----------- */
+	
+	html{
+		-webkit-tap-highlight-color : rgb(52,158,219);
+		-webkit-text-size-adjust    : 100%;
+		-ms-text-size-adjust        : 100%; 
+	}
+	body{
+		-webkit-font-smoothing : antialiased; 
+	}
+
+
+	/* Links ----------- */
+	
+	a{ 
+		line-height : inherit; 
+	}
+	a, 
+	a:visited, 
+	a:active,
+	a:hover{
+		text-decoration : none;
+		outline         : none;
+	}
+
+	/* List ----------- */
+	
+	ul{ 
+		list-style : none outside; 
+	}
+	ol{ 
+		list-style : decimal; 
+	}
+	ul.square{ 
+		list-style : square outside; 
+	}
+	ul.circle{ 
+		list-style : circle outside; 
+	}
+	ul.disc{ 
+		list-style : disc outside; 
+	}
+	li{
+		/* For IE6 + IE7. */
+		display : list-item;
+	}
+	
+	/* Typografy ----------- */
+	
+	h1{
+		font-size : 24px;
+	}
+	h2{
+		font-size : 20px;
+	}
+	h3{
+		font-size : 15px;
+	}
+	h4{
+		font-size : 14px;
+	}
+	h5{
+		font-size : 12px;
+	}
+	h6{
+		font-size : 10px;
+	}
+	b,
+	strong,
+	.strong{
+		/* Makes browsers agree. IE + Opera = font-weight:bold. Gecko + WebKit = font-weight:bolder. */
+		font-weight : bold;
+		font-weight : bolder;
+	}
+	small{
+		font-size : 10px;
+	}	
+	ins{
+		background-color : rgb(230,60,60);
+		color            : #fff;
+		text-decoration  : none;
+	}
+	.marker,
+	mark{
+		background-color : rgb(230,60,60);
+		color            : #fff;
+		font-style       : italic;
+		font-weight      : bold;
+		padding          : 0 3px;
+	}
+	abbr, 
+	acronym{ 
+		text-transform : uppercase; 
+		border-bottom  : 1px dotted #ddd; 
+		cursor         : help; 
+	}
+	abbr{ 
+		text-transform : none; 
+	}
+	p{
+		/* http : //www.w3.org/TR/css3-text/#hyphenation */
+		-webkit-hyphens                : auto;
+		-webkit-hyphenate-character    : "\2010";
+		-webkit-hyphenate-limit-after  : 1;
+		-webkit-hyphenate-limit-before : 3;
+		-moz-hyphens                   : auto; 
+	}
+	.font-bold{
+		font-weight:bold;
+	}
+	.font-normal{
+		font-weight:normal;
+	}
+	
+	/* Tables----------- */
+
+	table{
+		border-collapse : collapse;
+		border-spacing  : 0;
+	}
+	th,td,
+	caption{
+		font-weight    : normal;
+		vertical-align : top;
+		text-align     : left;
+	}
+	
+	/* Images----------- */
+ 
+	img{
+		color                  : transparent;
+		vertical-align         : middle;
+		/* For IE. http : //css-tricks.com/ie-fix-bicubic-scaling-for-images */
+		-ms-interpolation-mode : bicubic;
+	}
+	svg{
+		/* For IE9. */
+		overflow : hidden;
+	}	
+	.bgsize{
+		-webkit-background-size : 100% 100%; /* Saf3-4 */
+		-moz-background-size    : 100% 100%; /* FF3.6 */
+		background-size         : 100% 100%; /* Opera, IE9, Saf5, Chrome, FF4+ */
+	}
+	
+	/* Styling ----------- */
+	
+	.gradient{
+		background-color : #222222;                                                                                                     /* fallback color */
+		background-image : -webkit-gradient(linear, left top, left bottom, from(#333333), to(#222222));                                 /* Safari 4+, Chrome 1+ */
+		background-image : -webkit-linear-gradient(top, #333333, #222222);                                                              /* Chrome 10+, Saf5.1+, iOS 5+ */
+		background-image :    -moz-linear-gradient(top, #333333, #222222);                                                              /* Firefox 3.6+ */
+		background-image :     -ms-linear-gradient(top, #333333, #222222);                                                              /* IE10 */
+		background-image :      -o-linear-gradient(top, #333333, #222222);                                                              /* Opera 11.10+ */
+		background-image :         linear-gradient(to bottom, #333333, #222222);                                                        /* CSS3 */
+		filter           :  progid : DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#333333, endColorstr=#222222);   /* IE6 & IE7 */
+		-ms-filter       : "progid : DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#333333, endColorstr=#222222)"; /* IE8 */
+	}
+	.corners{			
+		-webkit-border-radius   : 5px;     /* Saf3-4, iOS 1-3.2, Android < 1.6 */
+		-khtml-border-radius    : 5px;     /* konqueror */
+		-moz-border-radius      : 5px;     /* FF1-3.6 */
+		border-radius           : 5px;     /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+		-webkit-background-clip : padding-box; /* Saf3-4, iOS 1-3.2, Android < 1.6 */
+		-khtml-box-sizing       : padding-box; /* konqueror */ 
+		-moz-background-clip    : padding;     /* FF1-3.6 */
+		background-clip         : padding-box; /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+	}
+	.box-shadow{
+		-webkit-box-shadow : 0 0 4px 0 #ccc; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+		-moz-box-shadow    : 0 0 4px 0 #ccc; /* FF3.5 - 3.6 */
+		box-shadow         : 0 0 4px 0 #ccc; /* Opera 10.5, IE9, FF4++, Chrome 6+, iOS 5 */
+	}
+	.text-shadow{
+		 text-shadow : 1px 1px 3px #888; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	}
+	.transparent{
+		opacity    : 0.9;               /* Chrome 4+, FF2+, Saf3.1+, Opera 9+, IE9, iOS 3.2+, Android 2.1+ */
+		filter     : alpha(opacity=90); /* IE6-IE8 */
+		-ms-filter : "progid:DXImageTransform.Microsoft.Alpha(opacity=90)";/* IE 8 */
+	}
+	hr{ 
+		border           : none; 
+		clear            : both; 
+		height           : 1px;
+		background-color : #222;
+		line-height      : 0;
+	}
+	/* backgroundcolor selection */
+	::-webkit-selection{
+		background  : rgb(23,119,175);
+		color       : rgb(255,255,255);
+		text-shadow : none; 
+	}
+	::-moz-selection{
+		background  : rgb(23,119,175);
+		color       : rgb(255,255,255);
+		text-shadow : none; 
+	}
+	::selection{
+		background  : rgb(23,119,175);
+		color       : rgb(255,255,255);
+		text-shadow : none; 
+	}
+	
+	/* Blockquote ----------- */
+	
+	blockquote{ 
+		padding : 0 20% 0 10%;
+		font    : italic 1.24px serif; 
+		color   : #666; 
+	}
+	blockquote:before, 
+	blockquote:after{ 
+		display   : block; 
+		font-size : 300%; 
+		color     : #ccc; 
+	}
+	blockquote:before{ 
+		content     : open-quote; 
+		margin-left : -10%; 
+		height      : 0; 
+	}
+	blockquote:after{ 
+		content     : close-quote; 
+		margin-left : 100%; 
+		margin-top  : -33px; 
+		height      : 33px; 
+	}
+	
+	/* Animations----------- */
+	
+	.transition{
+		-webkit-transition : all 0.3s ease-out;  /* Saf3.2+, Chrome */
+		-moz-transition    : all 0.3s ease-out;  /* FF4++ */
+		-ms-transition     : all 0.3s ease-out;  /* IE10 */
+		-o-transition      : all 0.3s ease-out;  /* Opera 10.5+ */
+		transition         : all 0.3s ease-out;
+	}
+	.animation:hover{
+		-webkit-animation : myanim 5s infinite; /* Saf5, Chrome */
+		-moz-animation    : myanim 5s infinite; /* FF5+ */
+		-ms-animation     : myanim 5s infinite; /* IE10 */
+		}
+		@-webkit-keyframes myanim{
+		  0%  { opacity : 0.0; }
+		  50% { opacity : 0.5; }
+		  100%{ opacity : 1.0; }
+		}
+		@-moz-keyframes myanim{
+		  0%  { opacity : 0.0; }
+		  50% { opacity : 0.5; }
+		  100%{ opacity : 1.0; }
+		}
+		@-ms-keyframes myanim{
+		  0%  { opacity : 0.0; }
+		  50% { opacity : 0.5; }
+		  100%{ opacity : 1.0; }
+		}
+	
+	/* Transformations ----------- */
+	/* Matrix calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html */	
+		
+	.rotate-45{
+		-webkit-transform : rotate(45deg);  /* Safari 3.1+, Chrome */
+    	-moz-transform    : rotate(45deg);  /* Firefox 3.5-15 */
+        -ms-transform     : rotate(45deg);  /* IE9 */
+         -o-transform     : rotate(45deg);  /* Opera 10.5-12.00 */
+        transform         : rotate(45deg);  /* Firefox 16+, Opera 12.50+ */
+		filter            : progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=-0.70710678, M21=0.70710678, M22=0.70710678,sizingMethod='auto expand');   /* IE 6-7 */
+		-ms-filter        : "progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=-0.70710678, M21=0.70710678, M22=0.70710678,sizingMethod='auto expand')"; /* IE 8 */
+        zoom              : 1;              /* IE */
+	}
+	.rotate-45m{
+		-webkit-transform : rotate(-45deg);  /* Safari 3.1+, Chrome */
+    	-moz-transform    : rotate(-45deg);  /* Firefox 3.5-15 */
+        -ms-transform     : rotate(-45deg);  /* IE9 */
+         -o-transform     : rotate(-45deg);  /* Opera 10.5-12.00 */
+        transform         : rotate(-45deg);  /* Firefox 16+, Opera 12.50+ */
+		filter            : progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678,sizingMethod='auto expand');  /* IE 6-7 */
+		-ms-filter        : "progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678,sizingMethod='auto expand')"; /* IE 8 */
+        zoom              : 1;              /* IE */
+	}				
+	.rotate-90{
+		-webkit-transform : rotate(90deg);  /* Safari 3.1+, Chrome */
+    	-moz-transform    : rotate(90deg);  /* Firefox 3.5-15 */
+        -ms-transform     : rotate(90deg);  /* IE9 */
+         -o-transform     : rotate(90deg);  /* Opera 10.5-12.00 */
+        transform         : rotate(90deg);  /* Firefox 16+, Opera 12.50+ */
+		filter            : progid:DXImageTransform.Microsoft.Matrix(M11=0.00000000, M12=-1.00000000, M21=1.00000000, M22=0.00000000,sizingMethod='auto expand');   /* IE 6-7 */
+		-ms-filter        : "progid:DXImageTransform.Microsoft.Matrix(M11=0.00000000, M12=-1.00000000, M21=1.00000000, M22=0.00000000,sizingMethod='auto expand')"; /* IE 8 */
+        zoom              : 1;              /* IE */
+	}
+	.rotate-90m{
+		-webkit-transform : rotate(-90deg);  /* Safari 3.1+, Chrome */
+    	-moz-transform    : rotate(-90deg);  /* Firefox 3.5-15 */
+        -ms-transform     : rotate(-90deg);  /* IE9 */
+         -o-transform     : rotate(-90deg);  /* Opera 10.5-12.00 */
+        transform         : rotate(-90deg);  /* Firefox 16+, Opera 12.50+ */
+		filter            : progid:DXImageTransform.Microsoft.Matrix(M11=0.00000000, M12=1.00000000, M21=-1.00000000, M22=0.00000000,sizingMethod='auto expand');   /* IE 6-7 */
+		-ms-filter        : "progid:DXImageTransform.Microsoft.Matrix(M11=0.00000000, M12=1.00000000, M21=-1.00000000, M22=0.00000000,sizingMethod='auto expand')"; /* IE 8 */
+        zoom              : 1;              /* IE */
+	}			
+	.rotate-180{
+		-webkit-transform : rotate(180deg);  /* Safari 3.1+, Chrome */
+    	-moz-transform    : rotate(180deg);  /* Firefox 3.5-15 */
+        -ms-transform     : rotate(180deg);  /* IE9 */
+         -o-transform     : rotate(180deg);  /* Opera 10.5-12.00 */
+        transform         : rotate(180deg);  /* Firefox 16+, Opera 12.50+ */
+		filter            : progid:DXImageTransform.Microsoft.Matrix(M11=-1.00000000, M12=-0.00000000, M21=0.00000000, M22=-1.00000000,sizingMethod='auto expand');   /* IE 6-7 */
+		-ms-filter        : "progid:DXImageTransform.Microsoft.Matrix(M11=-1.00000000, M12=-0.00000000, M21=0.00000000, M22=-1.00000000,sizingMethod='auto expand')"; /* IE 8 */
+        zoom              : 1;               /* IE */
+	}
+	.rotate-180m{
+		-webkit-transform : rotate(180deg);  /* Safari 3.1+, Chrome */
+    	-moz-transform    : rotate(180deg);  /* Firefox 3.5-15 */
+        -ms-transform     : rotate(180deg);  /* IE9 */
+         -o-transform     : rotate(180deg);  /* Opera 10.5-12.00 */
+        transform         : rotate(180deg);  /* Firefox 16+, Opera 12.50+ */
+		filter            : progid:DXImageTransform.Microsoft.Matrix(M11=-1.00000000, M12=0.00000000, M21=-0.00000000, M22=-1.00000000,sizingMethod='auto expand');  /* IE 6-7 */
+		-ms-filter        : "progid:DXImageTransform.Microsoft.Matrix(M11=-1.00000000, M12=0.00000000, M21=-0.00000000, M22=-1.00000000,sizingMethod='auto expand')"; /* IE 8 */
+        zoom              : 1;               /* IE */
+	}
+	
+	/* Forms ----------- */
+	
+    input,
+	input[type="button"],
+	input[type="color"],
+	input[type="date"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="email"],
+	input[type="file"],
+	input[type="image"],
+	input[type="month"],
+	input[type="number"],
+	input[type="password"],
+	input[type="radio"],
+	input[type="range"],
+	input[type="reset"],
+	input[type="search"],
+	input[type="submit"],
+	input[type="tel"],
+	input[type="text"],
+	input[type="time"],
+	input[type="url"],
+	input[type="week"]{
+		height                  : 30px;
+		width                   : 100%;
+		float                   : left;
+		padding                 : 0 5px;
+		line-height             : 28px\9;      /* IE 8 */
+		-webkit-box-sizing      : border-box;  /* Saf3-4, iOS 1-3.2, Android < 1.6 */
+		-khtml-box-sizing       : border-box;  /* konqueror */     
+		-moz-box-sizing         : border-box;  /* FF1-3.6 */
+		-ms-box-sizing          : border-box;  /* ie8 */		 
+		box-sizing              : border-box;  /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+		-webkit-background-clip : padding-box; /* Saf3-4, iOS 1-3.2, Android < 1.6 */
+		-khtml-box-sizing       : padding-box; /* konqueror */ 
+		-moz-background-clip    : padding;     /* FF1-3.6 */
+		background-clip         : padding-box; /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */			
+	}
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"],
+	button{
+		width     : auto;
+		padding   : 0 10px;
+		font-size : 12px!important;
+	}
+	::-webkit-input-placeholder{
+	}
+	:-moz-placeholder{
+	}
+	:-ms-input-placeholder{/* IE 10 */
+    }
+	/* remove dottedborder */
+	button::-moz-focus-inner,
+	input[type="reset"]::-moz-focus-inner,
+	input[type="button"]::-moz-focus-inner,
+	input[type="submit"]::-moz-focus-inner,
+	input[type="file"] > input[type="button"]::-moz-focus-inner{
+		border : none;
+	}
+	fieldset{
+		padding : 10px;
+	}
+	fieldset > legend{
+		height       : 30px;
+		line-height  : 30px;
+		padding      : 0 10px;		
+		*margin-left : -7px;
+	}
+	label{
+		height      : 30px;
+		line-height : 30px;
+		float       : left;		
+		font-weight : bold;
+		cursor      : pointer; 
+	}
+	button,
+	input,
+	select,
+	textarea{
+	    -webkit-border-radius : 3px;      /* Saf3-4, iOS 1-3.2, Android < 1.6 */
+		-khtml-border-radius  : 3px;      /* konqueror */
+	    -moz-border-radius    : 3px;      /* FF1-3.6 */
+	    border-radius         : 3px;      /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */	
+		vertical-align        : baseline;
+		*vertical-align       : middle;      /* ie 8 */
+		outline               : none;
+ 	}
+	button, 
+	input{
+		*overflow : visible; 
+	}
+	button,
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"]{
+		cursor : pointer; 
+	}
+	input[type="search"]{
+		-webkit-box-sizing : content-box; /* safari3 */
+		-khtml-box-sizing  : content-box; /* konqueror */     
+		-moz-box-sizing    : content-box; /* ff2 */
+		-ms-box-sizing     : content-box; /* ie8 */		 
+		box-sizing         : content-box; /* css3 */
+		-webkit-appearance : none;		
+	}
+	input[type="search"]::-webkit-search-decoration, 
+    input[type="search"]::-webkit-search-cancel-button {
+		display: none;
+    }
+	button::-moz-focus-inner,
+	input::-moz-focus-inner{
+		padding : 0;
+		border  : 0; 
+	}
+	textarea{
+		height                  : 160px;
+		width                   : 100%;
+		padding                 : 5px;		
+		overflow                : auto;
+		vertical-align          : top; 
+		font-size               : 12px;	
+		-webkit-box-sizing      : border-box;  /* Saf3-4, iOS 1-3.2, Android < 1.6 */
+		-khtml-box-sizing       : border-box;  /* konqueror */     
+		-moz-box-sizing         : border-box;  /* FF1-3.6 */
+		-ms-box-sizing          : border-box;  /* ie8 */		 
+		box-sizing              : border-box;  /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+		-webkit-background-clip : padding-box; /* Saf3-4, iOS 1-3.2, Android < 1.6 */
+		-khtml-box-sizing       : padding-box; /* konqueror */ 
+		-moz-background-clip    : padding;     /* FF1-3.6 */
+		background-clip         : padding-box; /* Opera 10.5, IE9, Saf5, Chrome, FF4+, iOS 4, Android 2.1+ */
+		behavior                : url("../htc/boxsizing.html");	
+		resize                  : none
+    }
+	textarea,
+	button{
+		font-family : Arial, Helvetica, sans-serif;
+	}
+	button,
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"]{
+		-webkit-appearance : button; 
+	}
+	select{
+		height      : 28px;
+		width       : 100%;
+		float       : left;
+		font-size   : 12px;
+		line-height : 28px;
+		padding     : 5px;
+	}
+	select[multiple]{
+		height : 135px;
+	}
+	
+	/* Misc ----------- */
+	
+	.line{
+		width:100%;
+		height:1px;
+		line-height:0;
+		float:left;
+		background-color:#000;
+	}	 
+	.noscroll{
+		overflow : hidden;
+	}
+	.hidden{
+		display : none;
+	}
+	pre{
+		white-space   : pre-wrap;       /* css-3 */
+		white-space   : -moz-pre-wrap;  /* FireFox*/
+		white-space   : -pre-wrap;      /* Opera 4-6 */
+		white-space   : -o-pre-wrap;    /* Opera 7 */
+		word-wrap     : break-word;     /* Internet Explorer 5.5+ */
+		overflow-wrap : break-word;     /* css-3 */
+	}	
+	
+	/* Position ----------- */
+	
+	.left{
+		width : auto;
+		float : left;
+	}
+	.right{
+		width : auto;
+		float : right;
+	}
+	.centered-block{
+		margin-left  : auto;
+		margin-right : auto;
+	}
+	.v-center{
+		width          : 100%;
+		height         : inherit;
+		vertical-align : middle; 
+		display        : table-cell; 
+	}
+	.text-left{ 
+		text-align : left; 
+	}
+	.text-right{ 
+		text-align : right; 
+	}	
+	.text-center{
+		text-align: center; 
+	}
+	
+	/* Clearfix ----------- */
+	 
+	.clearfix:before,
+	.clearfix:after{
+		content     : "\0020";
+		display     : block;
+		height      : 0;
+		overflow    : hidden; 
+		font-size   : 0;
+		line-height : 0;
+		visibility  : hidden;
+	}
+	.clearfix:after{
+		clear : both; 
+	}
+	.clearfix{
+		zoom : 1;/*IE*/
+	}
+	
+/*
+ * ===============================================================
+ * PRE MADE PARTS
+ * ===============================================================
+ */	
+
+	/* Dialogs ----------- */
+		
+	.dialog{
+		position : relative;
+		cursor   : pointer;
+		padding  : 6px 0;
+	}
+	.dialog,
+	.dialog-big{
+		-webkit-border-radius   : 3px;
+		-moz-border-radius      : 3px;
+		-khtml-border-radius    : 3px;
+		border-radius           : 3px;	
+		-webkit-background-clip : padding-box; 
+		-moz-background-clip    : padding; 
+		-khtml-box-sizing       : padding-box;
+		background-clip         : padding-box;
+		margin                  : 0 0 20px 0;
+	}		
+    .dialog img,
+	.dialog-inline img{
+		height : 16px;
+		width  : 16px;
+		margin : 0 5px 2px 0;
+	}
+	.dialog p,
+	.dialog-inline p{
+		height      : 15px;
+		line-height : 15px;
+		width       : auto;
+		float       : left;
+		margin      : 0 10px;
+	}
+	.dialog-inline p{
+		margin : 0 10px 0 0;
+	}
+	.dialog span,
+	.dialog-inline span{
+		position    : absolute;
+		right       : 10px;
+		top         : 50%;
+		margin      : -10px 0 0 0;
+		font-family : Verdana, Geneva, sans-serif;
+	}	
+	.dialog-inline,	
+	.dialog-big-inline{
+		position     : relative;
+		cursor       : pointer;
+		padding      : 6px 10px;
+		border-left  : none!important;
+		border-top   : none!important;
+		border-right : none!important;
+	}
+	.dialog-big-inline h3{
+		width     : auto;
+		float     : left;
+		font-size : 13px;
+	}
+	.dialog-big-inline span{
+		position    : absolute;
+		right       : 10px;
+		top         : 5px;
+		font-family : Verdana, Geneva, sans-serif;
+	}
+	.dialog-big-inline div{
+		clear   : both;
+		padding : 5px 10px 5px 0;
+	}
+	.dialog-big{
+		position : relative;
+		cursor   : pointer;
+		padding  : 10px;
+	}
+	.dialog-big h3{
+		width     : auto;
+		float     : left;
+		font-size : 13px;
+	}
+	.dialog-big span{
+		position    : absolute;
+		right       : 10px;
+		top         : 5px;
+		font-family : Verdana, Geneva, sans-serif;
+	}
+	.dialog-big div{
+		clear   : both;
+		padding : 5px 10px 5px 0;
+	}
+	.dialog-big ul,
+	.dialog-big ol,
+	.dialog-big-inline ul,
+	.dialog-big-inline ol{
+		padding         : 0 0 0 30px;
+		list-style-type : disc;
+	}
+	.dialog.success,
+	.dialog-inline.success,
+	.dialog-big.success,
+	.dialog-big-inline.success{
+		border           : 1px solid #1b3d08;
+		background-color : #a0f372;
+		color            : #1b3d08;
+	}
+	.dialog.info,
+	.dialog-inline.info,
+	.dialog-big.info,
+	.dialog-big-inline.info{
+		border           : 1px solid #003659;
+		background-color : #78cbff;
+		color            : #003659;
+	}
+	.dialog.error,
+	.dialog-inline.error,
+	.dialog-big.error,
+	.dialog-big-inline.error{
+		border           : 1px solid #530000;
+		background-color : #ff8e8e;
+		color            : #530000;
+	}
+	.dialog.warning,
+	.dialog-inline.warning,
+	.dialog-big.warning,
+	.dialog-big-inline.warning{
+		border           : 1px solid #787202;
+		background-color : #fff880;
+		color            : #383500;
+	}
+	.dialog.message,
+	.dialog-inline.message,
+	.dialog-big.message,
+	.dialog-big-inline.message{
+		border           : 1px solid #555;
+		background-color : #fff;
+		color            : #222;	
+	}
+	
+	/* Tags ----------- */
+
+	.tag{
+		width                 : auto;
+		height                : 24px;
+		float                 : left;
+		line-height           : 24px;
+		margin                : 0 5px 5px 0;
+		padding               : 0 10px;
+		font-size             : 10px;
+		-webkit-border-radius : 3px;
+		-moz-border-radius    : 3px;
+		border-radius         : 3px;
+		background-color      : #222;
+		border                : 1px solid #000;
+		color                 : #fff;			
+	}
+	.tag:hover{
+		text-decoration : none!important;
+	}
+	.tag.green{
+		background-color:#368c07;
+		border:1px solid #194502;
+		color:#fff;
+	}
+	.tag.blue{
+		background-color:#1791be;
+		border:1px solid #002837;
+		color:#fff;
+	}
+	.tag.purple{
+		background-color:#bc0181;
+		border:1px solid #4d0035;
+		color:#fff;
+	}
+	.tag.red{
+		background-color:#dd1919;
+		border:1px solid #530000;
+		color:#fff;
+	}
+	.tag.orange{
+		background-color:#d95b16;
+		border:1px solid #4b1b00;
+		color:#fff;
+	}
+	.tag.pink{
+		background-color:#e7255c;
+		border:1px solid #490015;
+		color:#fff;
+	}
+	.tag.darkblue{
+		background-color:#07338c;
+		border:1px solid #001133;
+		color:#fff;
+	}
+	
+	/* Buttons ----------- */
+	
+	.button-text{
+	    height                : 28px;
+		width                 : auto;
+		float                 : left;
+	    line-height           : 28px!important;
+		position              : relative;
+		margin                : 0 5px 5px 0;
+		padding               : 0 10px;
+		font-size             : 12px;
+		font-family           : Arial, Helvetica, sans-serif;
+		-moz-border-radius    : 3px;
+		-khtml-border-radius  : 3px;
+		-webkit-border-radius : 3px;
+		border-radius         : 3px;
+	}
+	input.button-text{
+		height : 30px;
+	}
+	button.button-text{
+		height : 30px;
+	}			
+	.button-icon{
+		width                 : 28px;
+		height                : 28px;
+		float                 : left;
+		-moz-border-radius    : 3px;
+		-khtml-border-radius  : 3px;
+		-webkit-border-radius : 3px;
+		border-radius         : 3px;
+		position              : relative;
+		margin                : 0 5px 5px 0;
+		font-size             : 12px;
+		font-family           : Arial, Helvetica, sans-serif;
+	}
+	.button-icon > img{
+		width    : 28px;
+		height   : 28px;
+		position : absolute;
+		left     : 50%;
+		top      : 50%;
+		margin   : -8px 0 0 -8px;
+	}	
+	button.button-icon{
+		width  : 30px;
+		height : 30px;
+	}
+	a.button-small{
+		height      : 24px;
+		line-height : 22px!important;
+		font-size   : 10px;
+		line-height : 23px\9!important;/* IE 8/9 */
+	}
+	input.button-small,
+	button.button-small{
+		height      : 26px;
+		font-size   : 10px!important;
+		padding     : 0 10px 2px 10px;	
+	}
+	button.button-small{
+		line-height : 20px!important;	
+		line-height : 23px\9!important;/* IE 8/9 */
+	}
+	input.button-small{
+		line-height : 23px\9!important;/* IE 8/9 */
+	}
+	a.button-large{
+		height      : 34px;
+		line-height : 34px!important;
+		font-size   : 14px;
+		font-weight : bold;
+		padding     : 0 15px;
+	}
+	input.button-large,
+	button.button-large{
+		height      : 36px;
+		line-height : 36px;
+		font-size   : 14px;
+		font-weight : bold;
+		padding     : 0 13px;		
+	}
+	a.button-big{
+		height      : 42px;
+		line-height : 42px!important;
+		font-size   : 14px;
+		font-weight : bold;
+		padding     : 0 20px;
+	}
+	input.button-big,
+	button.button-big{
+		height      : 44px;
+		line-height : 44px;
+		font-size   : 14px;
+		font-weight : bold;
+		padding     : 0 20px;	
+	}
+	
+	/* Clearfix ----------- */
+
+	.dialog-inline:before,
+	.dialog-inline:after{
+		content     : "\0020";
+		display     : block;
+		height      : 0;
+		overflow    : hidden; 
+		font-size   : 0;
+		line-height : 0;
+		visibility  : hidden;
+	}
+	.dialog:after,
+	.dialog-inline:after{
+		clear : both; 
+	}
+	.dialog,
+	.dialog-inline{
+		zoom : 1;/*IE*/
+	}
+	
+/*
+ * ===============================================================
+ * 3. GRID
+ * ===============================================================
+ */
+ 
+	/* Columns ----------- */
+
+	.g_1,
+	.g_1_2,  .g_1_2_last,
+	.g_1_3,  .g_1_3_last,
+	.g_1_4,  .g_1_4_last, 
+	.g_1_5,  .g_1_5_last,
+	.g_1_6,  .g_1_6_last,
+	.g_2_3,  .g_2_3_last,
+	.g_2_4,  .g_2_4_last,
+	.g_2_5,  .g_2_5_last,
+	.g_2_6,  .g_2_6_last,
+	.g_3_4,  .g_3_4_last,
+	.g_3_5,  .g_3_5_last,
+	.g_3_6,  .g_3_6_last,
+	.g_4_5,  .g_4_5_last,
+	.g_4_6,  .g_4_6_last,
+	.g_5_6,  .g_5_6_last,
+	.g_1_7,  .g_1_7_last,
+	.g_2_7,  .g_2_7_last,
+	.g_3_7,  .g_3_7_last,
+	.g_4_7,  .g_4_7_last,
+    .g_5_7,  .g_5_7_last,
+	.g_6_7,  .g_6_7_last,
+	.g_1_8,  .g_1_8_last,
+	.g_2_8,  .g_2_8_last,
+	.g_3_8,  .g_3_8_last,
+	.g_4_8,  .g_4_8_last,
+	.g_5_8,  .g_5_8_last,
+	.g_6_8,  .g_6_8_last,
+	.g_7_8,  .g_7_8_last,
+	.g_1_9,  .g_1_9_last,
+	.g_2_9,  .g_2_9_last,
+	.g_3_9,  .g_3_9_last,
+	.g_4_9,  .g_4_9_last,
+	.g_5_9,  .g_5_9_last,
+	.g_6_9,  .g_6_9_last,
+	.g_7_9,  .g_7_9_last,
+	.g_8_9,  .g_8_9_last,
+	.g_1_10, .g_1_10_last,
+	.g_2_10, .g_2_10_last,
+	.g_3_10, .g_3_10_last,
+	.g_4_10, .g_4_10_last,
+	.g_5_10, .g_5_10_last,
+	.g_6_10, .g_6_10_last,
+	.g_7_10, .g_7_10_last,
+	.g_8_10, .g_8_10_last,
+	.g_9_10, .g_9_10_last,
+	.g_1_11, .g_1_11_last,
+	.g_2_11, .g_2_11_last,
+	.g_3_11, .g_3_11_last,
+	.g_4_11, .g_4_11_last,
+	.g_5_11, .g_5_11_last,
+	.g_6_11, .g_6_11_last,
+	.g_7_11, .g_7_11_last,
+	.g_8_11, .g_8_11_last,
+	.g_9_11, .g_9_11_last,
+	.g_10_11, .g_10_11_last{
+		float              : left;
+		display            : inline;
+		min-height         : 10px;
+		position           : relative;
+		-webkit-box-sizing : border-box;
+	    -khtml-box-sizing  : border-box;   
+	    -moz-box-sizing    : border-box;
+	    -ms-box-sizing     : border-box;	 
+	    box-sizing         : border-box;	
+	}
+	.g_1{
+		width : 100%;
+	}
+	.g_1_2{
+		width        : 49%;
+		margin-right : 2%;
+	}
+	.g_1_2_last{
+		width : 49%;
+		float : right;
+	}
+	.g_1_3{
+		width        : 32%;
+		margin-right : 2%;
+	}
+	.g_1_3_last{
+		width : 32%;
+		float : right;
+	}
+	.g_2_3{
+		width        : 66%;
+		margin-right : 2%;
+	}
+	.g_2_3_last{
+		width : 66%;
+		float : right;
+	}
+	.g_1_4{
+		width        : 23.5%;
+		margin-right : 2%;
+	}
+	.g_1_4_last{
+		width : 23.5%;
+		float : right;
+	}
+	.g_2_4{
+		width        : 49%;
+		margin-right : 2%;
+	}
+	.g_2_4_last{
+		width : 49%;
+		float : right;
+	}
+	.g_3_4{
+		width        : 74.5%;
+		margin-right : 2%;
+	}
+	.g_3_4_last{
+		width : 74.5%;
+		float : right;
+	}
+	.g_1_5{
+		width        : 18.4%;
+		margin-right : 2%;
+	}
+	.g_1_5_last{
+		width : 18.4%;
+		float : right;
+	}
+	.g_2_5{
+		width        : 38.8%;
+		margin-right : 2%;
+	}
+	.g_2_5_last{
+		width : 38.8%;
+		float : right;
+	}
+	.g_3_5{
+		width        : 59.2%;
+		margin-right : 2%;
+	}
+	.g_3_5_last{
+		width : 59.2%;
+		float : right;
+	}
+	.g_4_5{
+		width        : 79.6%;
+		margin-right : 2%;
+	}
+	.g_4_5_last{
+		width : 79.6%;
+		float : right;
+	}
+	.g_1_6{
+		width        : 15%;
+		margin-right : 2%;
+	}
+	.g_1_6_last{
+		width : 15%;
+		float : right;
+	}
+	.g_2_6{
+		width        : 32%;
+		margin-right : 2%;
+	}
+	.g_2_6_last{
+		width : 32%;
+		float : right;
+	}
+	.g_3_6{
+		width        : 49%;
+		margin-right : 2%;
+	}
+	.g_3_6_last{
+		width : 49%;
+		float : right;
+	}
+	.g_4_6{
+		width        : 66%;
+		margin-right : 2%;
+	}
+	.g_4_6_last{
+		width : 66%;
+		float : right;
+	}
+	.g_5_6{
+		width        : 83%;
+		margin-right : 2%;
+	}
+	.g_5_6_last{
+		width : 83%;
+		float : right;
+	}
+	.g_1_7{
+		width        : 12.57%;
+		margin-right : 2%;		
+	}
+	.g_1_7_last{
+		width : 12.57%;	
+		float : right;
+	}
+	.g_2_7{
+		width        : 27.14%;
+		margin-right : 2%;		
+	}
+	.g_2_7_last{
+		width : 27.14%;
+		float : right;
+	}
+	.g_3_7{
+		width        : 41.71%;
+		margin-right : 2%;		
+	}
+	.g_3_7_last{
+		width : 41.71%;
+		float : right;
+	}	
+	.g_4_7{
+		width        : 56.28%;
+		margin-right : 2%;		
+	}
+	.g_4_7_last{
+		width : 56.28%;
+		float : right;
+	}	
+	.g_5_7{
+		width        : 70.85%;
+		margin-right : 2%;		
+	}
+	.g_5_7_last{
+		width : 70.85%;
+		float : right;
+	}	
+	.g_6_7{
+		width        : 85.42%;
+		margin-right : 2%;		
+	}
+	.g_6_7_last{
+		width : 85.42%;
+		float : right;
+	}	
+	.g_1_8{
+		width        : 10.75%;
+		margin-right : 2%;		
+	}
+	.g_1_8_last{
+		width : 10.75%;
+		float : right;
+	}
+	.g_2_8{
+		width        : 23.5%;
+		margin-right : 2%;		
+	}
+	.g_2_8_last{
+		width : 23.5%;
+		float : right;
+	}
+	.g_3_8{
+		width        : 36.25%;
+		margin-right : 2%;		
+	}
+	.g_3_8_last{
+		width : 36.25%;
+		float : right;
+	}
+	.g_4_8{
+		width        : 49%;
+		margin-right : 2%;		
+	}
+	.g_4_8_last{
+		width : 49%;
+		float : right;
+	}
+	.g_5_8{
+		width        : 61.75%;
+		margin-right : 2%;			
+	}
+	.g_5_8_last{
+		width : 61.75%;
+		float : right;		
+	}
+	.g_6_8{
+		width        : 74.5%;
+		margin-right : 2%;			
+	}
+	.g_6_8_last{
+		width : 74.5%;
+		float : right;		
+	}
+	.g_7_8{
+		width        : 87.25%;	
+		margin-right : 2%;			
+	}
+	.g_7_8_last{
+		width : 87.25%;	
+		float : right;
+	}
+	.g_1_9{
+		width        : 9.333333%;	
+		margin-right : 2%;			
+	}
+	.g_1_9_last{
+		width : 9.333333%;
+		float : right;	
+	}	
+	.g_2_9{
+		width        : 20.666666%;	
+		margin-right : 2%;			
+	}
+	.g_2_9_last{
+		width : 20.666666%;	
+		float : right;	
+	}	
+    .g_3_9{
+		width        : 31.999999%;	
+		margin-right : 2%;	
+	}
+	.g_3_9_last{
+		width : 31.999999%;
+		float : right;
+	}
+	.g_4_9{
+		width        : 43.333332%;	
+		margin-right : 2%;	
+	}
+	.g_4_9_last{
+		width : 43.333332%;	
+		float : right;
+	}
+	.g_5_9{
+		width        : 54.666665%;	
+		margin-right : 2%;	
+	}
+	.g_5_9_last{
+		width : 54.666665%;	
+		float : right;
+	}		
+	.g_6_9{
+		width        : 65.999998%;	
+		margin-right : 2%;	
+	}
+	.g_6_9_last{
+		width : 65.999998%;
+		float : right;
+	}
+	.g_7_9{
+		width        : 77.333331%;	
+		margin-right : 2%;	
+	}
+	.g_7_9_last{
+		width : 77.333331%;
+		float : right;
+	}
+	.g_8_9{
+		width        : 88.666664%;	
+		margin-right : 2%;	
+	}
+	.g_8_9_last{
+		width : 88.666664%;
+		float : right;
+	}	
+	.g_1_10{
+		width        : 8.2%;	
+		margin-right : 2%;		
+	}
+	.g_1_10_last{
+		width : 8.2%;
+		float : right;		
+	}
+	.g_2_10{
+		width        : 18.4%;	
+		margin-right : 2%;		
+	}
+	.g_2_10_last{
+		width : 18.4%;
+		float : right;	
+	}
+	.g_3_10{
+		width        : 28.6%;	
+		margin-right : 2%;		
+	}
+	.g_3_10_last{
+		width : 28.6%;
+		float : right;	
+	}
+	.g_4_10{
+		width        : 38.8%;	
+		margin-right : 2%;		
+	}
+	.g_4_10_last{
+		width : 38.8%;
+		float : right;	
+	}
+	.g_5_10{
+		width        : 49%;	
+		margin-right : 2%;		
+	}
+	.g_5_10_last{
+		width : 49%;
+		float : right;	
+	}
+	.g_6_10{
+		width        : 59.2%;	
+		margin-right : 2%;		
+	}
+	.g_6_10_last{
+		width : 59.2%;
+		float : right;	
+	}
+	.g_7_10{
+		width        : 69.4%;	
+		margin-right : 2%;		
+	}
+	.g_7_10_last{
+		width : 69.4%;
+		float : right;	
+	}
+	.g_8_10{
+		width        : 79.6%;	
+		margin-right : 2%;		
+	}
+	.g_8_10_last{
+		width : 79.6%;
+		float : right;	
+	}
+	.g_9_10{
+		width        : 89.8%;	
+		margin-right : 2%;		
+	}
+	.g_9_10_last{
+		width : 89.8%;
+		float : right;	
+	}
+	.g_1_11{
+		width        : 7.454545%;	
+		margin-right : 1.8%;		
+	}
+	.g_1_11_last{
+		width : 7.45454545%;
+		float : right;		
+	}
+	.g_2_11{
+		width        : 16.909090%;	
+		margin-right : 1.8%;		
+	}
+	.g_2_11_last{
+		width : 16.909090%;	
+		float : right;	
+	}
+	.g_3_11{
+		width        : 26.163635%;	
+		margin-right : 1.8%;	
+	}
+	.g_3_11_last{
+		width : 26.163635%;	
+		float : right;
+	}
+	.g_4_11{
+		width        : 35.41818%;	
+		margin-right : 1.8%;	
+	}
+	.g_4_11_last{
+		width : 35.41818%;
+		float : right;	
+	}
+	.g_5_11{
+		width        : 44.672725%;	
+		margin-right : 1.8%;		
+	}
+	.g_5_11_last{
+		width : 44.672725%;
+		float : right;
+	}
+	.g_6_11{
+		width        : 53.92727%;	
+		margin-right : 1.8%;		
+	}
+	.g_6_11_last{
+		width : 53.92727%;	
+	}
+	.g_7_11{
+		width        : 63.181815%;	
+		margin-right : 1.8%;		
+	}
+	.g_7_11_last{
+		width : 63.181815%;	
+		float : right;
+	}
+	.g_8_11{
+		width        : 72.43636%;	
+		margin-right : 1.8%;		
+	}
+	.g_8_11_last{
+		width : 72.43636%;	
+		float : right;
+	}
+	.g_9_11{
+		width        : 81.690905%;		
+		margin-right : 1.8%;		
+	}
+	.g_9_11_last{
+		width : 81.690905%;	
+		float : right;
+	}
+	.g_10_11{
+		width        : 90.94545%;	
+		margin-right : 1.8%;		
+	}
+	.g_10_11_last{
+		width : 90.94545%;
+		float : right;
+	}
+	.g_1_12{
+		width        : 6.958333%;	
+		margin-right : 1.5%;		
+	}
+	.g_1_12_last{
+		width : 6.958333%;	
+		float : right;
+	}
+	.g_2_12{
+		width        : 15.416666%;	
+		margin-right : 1.5%;		
+	}
+	.g_2_12_last{
+		width : 15.416666%;	
+		float : right;
+	}
+	.g_3_12{
+		width        : 23.874999%;	
+		margin-right : 1.5%;	
+	}
+	.g_3_12_last{
+		width : 23.874999%;
+		float : right;
+	}
+	.g_4_12{
+		width        : 32.333332%;	
+		margin-right : 1.5%;		
+	}
+	.g_4_12_last{
+		width : 32.333332%;	
+		float : right;	
+	}
+	.g_5_12{
+		width        : 40.791665%;	
+		margin-right : 1.5%;		
+	}
+	.g_5_12_last{
+		width : 40.791665%;	
+		float : right;
+	}
+	.g_6_12{
+		width        : 49.249998%;	
+		margin-right : 1.5%;		
+	}
+	.g_6_12_last{
+		width : 49.249998%;	
+		float : right;	
+	}
+	.g_7_12{
+		width        : 57.708331%;	
+		margin-right : 1.5%;		
+	}
+	.g_7_12_last{
+		width : 57.708331%;
+		float : right;
+	}
+	.g_8_12{
+		width        : 66.166664%;		
+		margin-right : 1.5%;		
+	}
+	.g_8_12_last{
+		width : 66.166664%;	
+		float : right;
+	}
+	.g_9_12{
+		width        : 74.624997%;		
+		margin-right : 1.5%;		
+	}
+	.g_9_12_last{
+		width : 74.624997%;
+		float : right;
+	}
+	.g_10_12{
+		width        : 83.08333%;
+		margin-right : 1.5%;	
+	}
+	.g_10_12_last{
+		width : 83.08333%;	
+		float : right;
+	}
+	.g_11_12{
+		width        : 91.541663%;	
+	    margin-right : 1.5%;		
+	}
+	.g_11_12_last{
+		width : 91.541663%;	
+		float : right;
+	}
+	
+	.clear{
+		clear       : both;
+		display     : block;
+		font-size   : 0;
+		height      : 0;
+		line-height : 0;
+		overflow    : hidden;
+		width       : 100%;
+	}
+	
+	/* Spacers ----------- */
+	
+	.spacer-5,
+	.spacer-10,
+	.spacer-15,
+	.spacer-20,
+	.spacer-25,
+	.spacer-30,
+	.spacer-35,
+	.spacer-40,
+	.spacer-45,
+	.spacer-50{
+		width : 100%;
+		clear : both;
+	}
+	.spacer-5{
+		height : 5px;
+	}
+	.spacer-10{
+		height : 10px;
+	}
+	.spacer-15{
+		height : 15px;
+	}
+	.spacer-20{
+		height : 20px;
+	}
+	.spacer-25{
+		height : 25px;
+	}
+	.spacer-30{
+		height : 30px;
+	}
+	.spacer-35{
+		height : 35px;
+	}
+	.spacer-40{
+		height : 40px;
+	}
+	.spacer-45{
+		height : 45px;
+	}
+	.spacer-50{
+		height : 50px;
+	}
+
+/*
+ * ===============================================================
+ * 4. MEDIA QUERIES
+ * ===============================================================
+ */
+  
+	/* Print styles ----------- */
+	
+	@media print{
+	/* Styles */	 
+	}
+	
+	/* Smartphones (portrait and landscape) ----------- */
+	
+	@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 480px){
+	/* Styles */
+	}
+	 
+	/* Smartphones (landscape) ----------- */
+	
+	@media only screen
+	and (min-width : 321px){
+	/* Styles */
+	}
+	 
+	/* Smartphones (portrait) ----------- */
+	
+	@media only screen
+	and (max-width : 320px){
+	/* Styles */
+	}
+	 
+	/* iPads 1 & 2 (portrait and landscape) ----------- */
+	
+	@media only screen
+	and (min-device-width : 768px)
+	and (max-device-width : 1024px){
+	/* Styles */
+	}
+	 
+	/* iPads 1 & 2 (landscape) ----------- */
+	
+	@media only screen
+	and (min-device-width : 768px)
+	and (max-device-width : 1024px)
+	and (orientation : landscape){
+	/* Styles */
+	}
+	 
+	/* iPads 1 & 2 (portrait) ----------- */
+	
+	@media only screen
+	and (min-device-width : 768px)
+	and (max-device-width : 1024px)
+	and (orientation : portrait){
+	/* Styles */
+	}
+	
+	/* iPads 3 (portrait and landscape) ----------- */
+	
+	@media only screen
+	and (min-device-width : 1536px)
+	and (max-device-width : 2048px){
+	/* Styles */
+	}
+	 
+	/* iPads 3 (landscape) ----------- */
+	
+	@media only screen
+	and (min-device-width : 1536px)
+	and (max-device-width : 2048px)
+	and (orientation : landscape){
+	/* Styles */
+	}
+	 
+	/* iPads 3 (portrait) ----------- */
+	
+	@media only screen
+	and (min-device-width : 1536px)
+	and (max-device-width : 2048px)
+	and (orientation : portrait){
+	/* Styles */
+	}
+	 
+	/* RIM playbook (portrait and landscape) ----------- */
+	
+	@media only screen
+	and (min-device-width : 600px)
+	and (max-device-width : 1024px){
+	/* Styles */
+	}
+	 
+	/* RIM playbook (landscape) ----------- */
+	
+	@media only screen
+	and (min-device-width : 600px)
+	and (max-device-width : 1024px)
+	and (orientation : landscape){
+	/* Styles */
+	}
+	 
+	/* RIM playbook (portrait) ----------- */
+	
+	@media only screen
+	and (min-device-width : 600px)
+	and (max-device-width : 1024px)
+	and (orientation : portrait){
+	/* Styles */
+	}
+	 
+	/* Desktops and laptops ----------- */
+	
+	@media only screen
+	and (min-width : 1224px){
+	/* Styles */
+	}
+	 
+	/* Large screens ----------- */
+	
+	@media only screen
+	and (min-width : 1824px){
+	/* Styles */
+	}
+	 
+	/* iPhone 4 ----------- */
+	
+	@media
+	only screen and (-webkit-min-device-pixel-ratio : 2),
+	only screen and (min-device-pixel-ratio : 2){
+	/* Styles */
+	}

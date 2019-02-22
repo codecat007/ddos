@@ -1,0 +1,5 @@
+$(function () {
+	
+	$('.faq-list').goFaq ();
+	
+});

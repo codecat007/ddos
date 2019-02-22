@@ -1,0 +1,55 @@
+.stat {	
+	margin-top: 2.25em;
+}
+
+.stat:first-child {
+	margin-top: 0;
+}
+
+.stat .stat-header {	
+	display: table;
+	
+	width: 100%;
+	
+	margin-bottom: .5em;
+}
+
+.stat-value {
+	display: table-cell;
+	
+	width: 50%;
+	
+	margin-top: -1.15em;
+	
+	color: #666;
+	
+	font-size: 20px;
+	font-weight: 600;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.stat-label {
+	display: table-cell;
+	
+	width: 50%;
+	
+	color: #999;
+	
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	
+}
+
+.stat .progress {
+	margin-bottom: 0;
+}
+
+.stat .stat-note {
+	margin-top: .65em;
+	
+	color: #888;
+	
+	font-style: italic;
+}

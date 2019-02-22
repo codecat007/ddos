@@ -1,0 +1,153 @@
+/* CSS Document */
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	color: #999999;
+	cursor: default;
+}
+.form_widget_amount_slider{
+	border-top:1px solid #9d9c99;
+	border-left:1px solid #9d9c99;
+	border-bottom:1px solid #eee;
+	border-right:1px solid #eee;
+	background-color:#f0ede0;
+	height:3px;
+	position:absolute;
+	bottom:0px;
+	width:200px;
+}
+body {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #515151;
+	margin-left: 12px;
+	margin-top: 12px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	cursor: default;
+}
+a {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.entryfield {
+	color: #222222; 
+	background-color:#FFFFFF;
+	border:1px solid #000000; 
+	font-size: 12px; 
+	font-family: "Courier New", Courier, monospace;
+	width: 98%;
+}
+.button {
+	width: 100px;
+	margin: 2px;
+	background-color: #00CC00; 
+	color: #FFFFFF; 
+	cursor: pointer; 
+	border: 1px solid #000000; 
+	font-size: 12px; font-family: verdana;
+	right: right;
+}
+.hr{
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #333333; 
+	border-right: 0px solid #000000; 
+	border-left: 0px solid #000000; 
+	width:98%;
+}
+.textbox {
+	margin-top: 5px; 
+	color: #222222; 
+	background-color:#FFFFFF; 
+	border: 1px solid #000000; 
+	scrollbar-3dlight-color: #414141; 
+	scrollbar-arrow-color: #000000; 
+	scrollbar-base-color: #000000;
+	scrollbar-darkshadow-color: #414141;
+	scrollbar-face-color: #133337; 
+	scrollbar-highlight-color: #000000; 
+	scrollbar-shadow-color: #414141 ; 
+	font-size: 12px; 
+	font-family: "Courier New", Courier, monospace;
+	width: 98%;
+}
+td.off {
+	background: #330000;
+	cursor: pointer;
+	margin: 12px;
+	width: 100px;
+	border: 1px solid #000000; 
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	color: #999999;
+}
+td.on {
+	background: #222222;
+	cursor: pointer;
+	width: 100px;
+	border: 1px solid #000000; 
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	color: #999999;
+}
+.head {
+padding: 3px;
+padding-left: 5px;
+color: #616161;
+background: #FFFFFF;
+font-family: "Courier New", Courier, monospace;
+font-size: 12px;
+text-align: left;
+border-bottom: 2px solid;
+border-color: #121212;
+}
+.sub {
+background: #FFFFFF;
+color: #FFFFFF;
+font-family: "Courier New", Courier, monospace;
+font-size: 12px;
+font-weight: bold;
+padding: 3px;
+}
+
+.cell {
+color: #FFFFFF;
+background: #0A0D07;
+font-family: "Courier New", Courier, monospace;
+font-size: 12px;
+padding: 3px;
+}
+
+.submit {
+color: #FFFFFF;
+font-family: "Courier New", Courier, monospace;
+font-size: 12px;background: #FFFFFF;
+padding: 5px;
+border-top: 1px solid;
+border-color: #121212;
+}
+.table {
+	border: #000000 1px solid;
+	-moz-border-radius:7px;
+	background-color: #000000;;
+}
+-->
+</style>

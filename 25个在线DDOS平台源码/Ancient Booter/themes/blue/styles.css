@@ -1,0 +1,33 @@
+/* Toolbox and Stats Button */
+
+	 #toolbox {background: #0EB4C8 url(./images/bg_toolbox_tab.png) repeat-x bottom; }
+	 #toolbox a, ul.summarystats p.statview a {color: #0F525B; text-shadow: 1px 1px 1px #68C5D1;}
+	 
+	 ul#sliderContent li a {color: #fff; background: url(./images/toolbox_row.png) repeat-x top}
+		ul#sliderContent li.alt a {color: #fff; background: url(./images/toolbox_alt_row.png) repeat-x top}
+		ul#sliderContent li a:hover, ul#sliderContent li.alt a:hover {background: #138392}
+		
+	/* Stats */	
+	ul.summarystats p.statview a {background:url(./images/bg_btns.png) repeat-x top}
+	ul.summarystats p.statview a:hover {background:url(./images/bg_btns.png) 0 -30px; color: #fff; text-shadow: none}
+
+/* Navigation Styles */
+
+	ul#nav li a.heading, a.collapsed, a.expanded, ul.navigation li.selected{background: #a7a7a7 url(./images/bg_navigation_links.png) no-repeat top;}
+		ul#nav li a.collapsed:hover {background: #a7a7a7 url(./images/bg_navigation_links.png) 0 -40px;}
+		
+	ul#nav li a.expanded {background: #a7a7a7 url(./images/bg_navigation_links.png) 0 -80px;}
+		ul#nav li a.expanded:hover {background: #a7a7a7 url(./images/bg_navigation_links.png) 0 -120px;}
+
+/* Button Styling */
+	
+	.btn, .btnalt {background: url(./images/bg_btns.png) repeat-x top; color: #0F525B; text-shadow: 1px 1px 1px #68C5D1; font-size: 13px; padding: 10px 15px; boirder-radius: 7px; -moz-border-radius: 7px; font-weight: 700; border: none}
+		.btn:hover {background: url(./images/bg_btns.png) 0 -30px; cursor: pointer; color: #fff; text-shadow: none}
+		
+	.btnalt {background: url(./images/bg_btns_alt.png) repeat-x top !important; color: #666; text-shadow: 1px 1px 1px #fff}
+		.btnalt:hover {background: url(./images/bg_btns_alt.png) 0 -30px !important; cursor: pointer; color: #333}		
+
+/* Pagination */
+	
+	ul.pagination li.page a {background: url(./images/bg_btns.png) repeat-x top; color: #fff; border: 1px solid #1B9CAF}
+		ul.pagination li.page a:hover {background: url(./images/bg_btns.png) 0 -30px;}

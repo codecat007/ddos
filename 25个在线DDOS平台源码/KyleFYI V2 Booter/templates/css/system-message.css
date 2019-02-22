@@ -1,0 +1,65 @@
+/*
+Template Name: Mustache
+Author: Rory Kranendonk
+Author URI: http://www.dreamwire.nl
+Version: 1.0
+*/
+
+.message {
+	position : relative;
+	display : inline-block;
+	margin : 20px 20px 0 0;
+	padding : 0 0 0 35px;
+	clear : both;
+	cursor : pointer;
+	-moz-box-shadow: 1px 1px 0 #e6e6e6;
+	-webkit-box-shadow: 1px 1px 0 #e6e6e6;
+	box-shadow: 1px 1px 0 #e6e6e6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#e6e6e6')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#e6e6e6');
+	zoom: 1;
+}
+
+.message:hover {
+	opacity : 0.7;
+	filter : alpha(opacity=70);
+}
+
+.message span {
+	display : block;
+	background : url(../gfx/system-icon.png) no-repeat 98% center;
+	padding : 13px 0;
+	font : 12px/1.0em Arial;
+}
+
+.message.inner {
+	margin : 0 0 20px;
+}
+
+.message.red {
+	display : block;
+	background : url(../gfx/icon-error.png) no-repeat 10px 8px #F8E9E9;
+	border : 1px solid #E4BBBC;
+	color : #b80000;
+}
+
+.message.green {
+	display : block;
+	background : url(../gfx/icon-succes.png) no-repeat 10px 8px #EBF9E2;
+	border : 1px solid #BEE4A5;
+	color : #6aa500;
+}
+
+.message.blue {
+	display : block;
+	background : url(../gfx/icon-info.png) no-repeat 10px 8px #E9F3F8;
+	border : 1px solid #BBD7E4;
+	color : #136bc5;
+}
+
+.message.orange {
+	display : block;
+	background : url(../gfx/icon-warning.png) no-repeat 10px 8px #FFF8D8;
+	border : 1px solid #F3D97E;
+	color : #ed9d12;
+}

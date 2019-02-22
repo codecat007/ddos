@@ -1,0 +1,177 @@
+body
+{
+    margin-top: 25px;
+    background: #000000 url(bg.jpeg) center 75% no-repeat fixed;
+    font: normal 15px Courier New, monospace;
+    color: #CCCCCC;
+
+}
+
+input {
+-moz-border-radius: 2px;
+border-radius: 2px;
+
+background: #222;
+color: #ddd;
+}
+
+input:focus {
+background: #111;
+color: #fff;
+}
+
+input[disabled] {
+background: #111;
+color: #555;
+}
+
+a {
+color: #ccc;
+text-decoration: none;
+outline: none;
+}
+
+a:hover {
+color: #fff;
+text-decoration: underline;
+}
+
+#container
+{
+    background: #000 url(http://www.brooksparanormal.com/uploads/bg_black_gradient.jpg) repeat-x;
+    width: 700px;
+    min-height: 90px;
+    border: 1px solid #ddd;
+    padding: 3px;
+    color: #ccc;
+
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    margin: auto;
+}
+
+#title
+{
+    color: #0080cc;
+    margin: 0;
+}
+
+ul#navigation, ul#form
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#navigation
+{
+    float: right;
+}
+
+ul#form
+{
+    clear: both;
+}
+
+ul#navigation li
+{
+    float: left;
+    margin: 0;
+    padding: 5px 0;
+}
+
+ul#navigation li a
+{
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px 15px;
+    margin-left: 5px;
+    text-decoration: none;
+    border: 1px #ccc solid;
+    background: url(http://tu-torial.com/images/photoshop/textures/abstract_lines_background/Result.gif) 64% 55% repeat-x;
+}
+
+ul#navigation li  a:hover
+{
+    color: #0080FF;
+}
+
+ul#form li
+{
+    width: 698px;
+}
+
+#footer
+{
+    color: #9B9C83;
+    font-size: small;
+    text-align: right;
+}
+
+#address_bar
+{
+    border: 2px #ccc solid;
+    background: #222 url(/themes/Asperon/images/bg_buttons.gif) center 20% repeat-x;
+    text-align: center;
+    padding: 5px 0;
+    color: #ffffff;
+}
+
+#go
+{
+    font-weight: bold;
+    color: #aaa;
+    border: 1px #0080FF solid;
+    padding: 0px 5px;
+}
+
+#address_box
+{
+    width: 500px;
+}
+
+.option
+{
+    padding: 2px 0;
+    color: #fff;
+    background: #222 url(/themes/Asperon/images/input.png) repeat-x;
+    /* for IE */
+    filter:alpha(opacity=50);
+    /* CSS3 standard */
+    opacity:0.5;
+    border-left: 1px #aaa solid;
+    border-right: 1px #aaa solid;
+    border-bottom: 1px #aaa solid;
+}
+
+.option label
+{
+}
+
+form
+{
+    margin: 0;
+}
+
+#error, #auth
+{
+    background: url(http://home.online.no/~t-o-k/Colour_Gradients/Black-Red_256x256.png) center 82% repeat-x;
+    border-top: 1px solid #44352C;
+    border-bottom: 1px solid #44352C;
+    width: 700px;
+    clear: both;
+    color: #aaa;
+    font-size: 13px;
+    text-align: center;
+}
+
+#auth
+{
+    background-color: #94C261;
+}
+
+#error p, #auth p, #auth form
+{
+    margin: 5px;
+}

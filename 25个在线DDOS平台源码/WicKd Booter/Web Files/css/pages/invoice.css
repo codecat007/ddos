@@ -1,0 +1,42 @@
+#invoice_total {
+	background: #A6CB7A;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	padding: 20px 15px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: .75em;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, .35);
+}
+
+.client_details,
+.invoice_details {
+	padding: 0;
+	margin: .5em 0 0;
+	
+	list-style: none;
+}
+
+.client_details li,
+.invoice_details li {
+	margin-bottom: .75em;
+}
+
+#invoice_actions { padding: 0; margin-top: 2em; margin-left: 0; }
+#invoice_actions li { list-style-type: none; margin-bottom: 1.25em; }
+#invoice_actions li a
+{
+	padding-left: 30px;
+	
+	font-size: 13px;
+}
+
+#invoice_actions .send { background: url(../../img/silk/email.png) no-repeat 0 center; }
+#invoice_actions .edit { background: url(../../img/silk/pencil.png) no-repeat 0 center; }
+#invoice_actions .print { background: url(../../img/silk/printer.png) no-repeat 0 center; }
+#invoice_actions .duplicate { background: url(../../img/silk/page_white_copy.png) no-repeat 0 center; }
+#invoice_actions .delete { background: url(../../img/silk/cross.png) no-repeat 0 center; }
+#invoice_actions .change { background: url(../../img/silk/page_white_go.png) no-repeat 0 center; }

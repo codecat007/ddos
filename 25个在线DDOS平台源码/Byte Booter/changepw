@@ -1,0 +1,16 @@
+#!/bin/bash
+clear
+echo " +====================================================================+"
+echo " +--------------------------------------------------------------------+" 	
+echo "  +		                                               	    + " 
+echo "  +		                Welcome to                     	    + " 
+echo "  +	  VVV     VV IIIII KK  KK IIIII NN   NN   GGGG  	    + " 
+echo "  +	   VV     VV  III  KK KK   III  NNN  NN  GG  GG             + " 
+echo "  +	    VV   VV   III  KKKK    III  NN N NN GG                  + " 
+echo "  +	     VV VV    III  KK KK   III  NN  NNN GG   GG             + " 
+echo "  +	      VVV    IIIII KK  KK IIIII NN   NN  GGGGGG             + " 
+echo "  +		                                                    + " 
+echo "  ===========================================================~Vital~=" 	
+echo "                     Change Password                 "
+echo "  ================================================================"
+passwd
